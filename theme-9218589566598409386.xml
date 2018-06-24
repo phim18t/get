@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.0.1' expr:dir='data:blog.languageDirection' lang='vi' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+&lt;head&gt;
+<!-- [ Meta Tag SEO ] -->
+<!-- Blogger Sumbit-->
+<base href='https://www.phim18t.com' name='base_url'/>
+<meta charset='utf-8'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no' name='viewport'/>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link href='https://www.phim18t.com' hreflang='vi-VN' rel='alternate'/>
+<link href='https://www.phim18t.com' rel='canonical'/>
+<meta content='' name='search'/>
+<link crossorigin='crossorigin' href='//i.imgur.com' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//cdnjs.cloudflare.com' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//lh3.googleusercontent.com' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//fonts.googleapis.com' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//www.googletagmanager.com' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//www.google-analytics.com' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//connect.facebook.net' rel='preconnect'/>
+<link crossorigin='crossorigin' href='//jsc.mgid.com' rel='preconnect'/>
+<meta content='video.movie' property='og:type'/>
+<meta content='https://www.phim18t.com' property='og:url'/>
+<meta content='summary' name='twitter:card'/>
+<meta content='https://www.phim18t.com' name='twitter:url'/>
+<!-- SEO Title -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<title>Xem Phim <data:blog.pageName/> | HD Vietsub + Thuyết Minh </title>
+<meta expr:content='&quot;Xem Phim &quot; + data:blog.pageName + &quot;| HD Vietsub + Thuyết Minh&quot;' property='og:title'/>
+<meta expr:content='&quot;Xem Phim &quot; + data:blog.pageName + &quot;| HD Vietsub + Thuyết Minh&quot;' property='og:image:alt'/>
+<meta expr:content='&quot;Xem Phim &quot; + data:blog.pageName + &quot;| HD Vietsub + Thuyết Minh&quot;' name='twitter:title'/>
+<b:else/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<title>Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD</title>
+<meta content='Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD' property='og:title'/>
+<meta content='Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD' property='og:image:alt'/>
+<meta content='Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD' name='twitter:title'/>
+<meta content='xem phim online, xem phim hd, phim han quoc, phim trung quoc, phim vietsub, phim hanh dong, phim thuyet minh, phim vien tuong, phim vo thaut, phim tam ly tinh cam, phim 18+, phim nguoi lon, phim cap 3, phim 18+ korea, phim cap 3 han quoc moi nhat' name='keywords'/>
+<b:else/>
+<b:if cond='data:blog.searchLabel'>
+<title><data:blog.pageName/></title>
+<meta expr:content='data:blog.pageName + &quot; | &quot; + data:blog.title' property='og:title'/>
+<meta expr:content='data:blog.pageName + &quot; | &quot; + data:blog.title' property='og:image:alt'/>
+<meta expr:content='data:blog.pageName + &quot; | &quot; + data:blog.title' name='twitter:title'/>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<title>Page Not Found</title>
+<meta expr:content='&quot;Page Not Found | &quot; + data:blog.title' property='og:title'/>
+<meta expr:content='&quot;Page Not Found | &quot; + data:blog.title' property='og:image:alt'/>
+<meta expr:content='&quot;Page Not Found | &quot; + data:blog.title' name='twitter:title'/>
+<b:else/>
+<title><data:blog.pageName/></title>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+<meta expr:content='data:blog.pageName' property='og:image:alt'/>
+<meta expr:content='data:blog.pageName' name='twitter:title'/>
+</b:if>
+</b:if>
+</b:if>
+</b:if>
+
+<!-- Social Network -->
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta expr:content='&quot;Xem phim mới miễn phí nhanh chất lượng cao. Xem Phim online Vietsub, Thuyết minh, lồng tiếng chất lượng HD. Xem phim nhanh online chất lượng cao, Phim 18+ HD, phim người lớn, Phim 18t&quot;' name='description'/>
+<meta expr:content='&quot;Xem phim mới miễn phí nhanh chất lượng cao. Xem Phim online Vietsub, Thuyết minh, lồng tiếng chất lượng HD. Xem phim nhanh online chất lượng cao, Phim 18+ HD, phim người lớn, Phim 18t&quot;' property='og:description'/>
+<meta expr:content='&quot;Xem phim mới miễn phí nhanh chất lượng cao. Xem Phim online Vietsub, Thuyết minh, lồng tiếng chất lượng HD. Xem phim nhanh online chất lượng cao, Phim 18+ HD, phim người lớn, Phim 18t&quot;' name='twitter:description'/>
+<b:else/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+<meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+</b:if>
+</b:if>
+<meta content='summary' name='twitter:card'/>
+<meta expr:content='data:blog.homepageUrl' name='twitter:domain'/>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.canonicalUrl' name='twitter:url'/>
+<meta expr:content='data:blog.pageName' name='twitter:title'/>
+<meta expr:content='data:blog.postImageUrl' name='twitter:image:src'/>
+<b:else/>
+<meta expr:content='data:blog.homepageUrl' name='twitter:url'/>
+<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+<meta content='https://i.imgur.com/9bHksv8.png' name='twitter:image:src'/>
+</b:if>
+<meta expr:content='data:blog.canonicalUrl' name='twitter:url'/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta expr:content='data:blog.homepageUrl' property='og:url'/>
+<meta content='https://i.imgur.com/9bHksv8.png' property='og:image'/>
+<b:else/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='data:blog.postImageUrl' property='og:image'/>
+<b:else/>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+<b:else/>
+<meta expr:content='data:blog.blogspotFaviconUrl' property='og:image'/>
+</b:if>
+</b:if>
+</b:if>
+<meta content='841533712677087' property='fb:app_id'/>
+<meta content='phim18t' property='fb:pages'/>
+<meta content='1 days' name='revisit-after'/>
+<meta content='index,follow,noodp' name='ROBOTS'/>
+<meta content='index,follow' name='googlebot'/>
+<meta content='index,follow' name='BingBOT'/>
+<meta content='index,follow' name='yahooBOT'/>
+<meta content='index,follow' name='slurp'/>
+<meta content='index,follow' name='msnbot'/>
+<include expiration='7d' path='*.css'/>
+<include expiration='7d' path='*.js'/>
+<include expiration='3d' path='*.gif'/>
+<include expiration='3d' path='*.jpeg'/>
+<include expiration='3d' path='*.jpg'/>
+<include expiration='3d' path='*.png'/>
+<!-- Chrome, Firefox OS, Opera and Vivaldi -->
+<meta content='#2ecc71' name='theme-color'/>
+<!-- Windows Phone -->
+<meta content='#2ecc71' name='msapplication-navbutton-color'/>
+<!-- iOS Safari -->
+<meta content='black' name='apple-mobile-web-app-status-bar-style'/>
+<!-- [ End Meta Tag SEO ] -->
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' media='none' onload='if(media!=&apos;all&apos;)media=&apos;all&apos;' rel='stylesheet'/>
+<link href='//fonts.googleapis.com/css?family=Quicksand:400,500,700&amp;subset=vietnamese' media='none' onload='if(media!=&apos;all&apos;)media=&apos;all&apos;' rel='stylesheet'/>
+<!-- Skin -->
+
+<!-- Skin -->
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!-- /*<b:skin><![CDATA[
+/* CSS */
+h1,h2,h3,h4,h5,h6{margin:0}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}html.hidden{display:block!important}span,b{font-family:"Quicksand",sans-serif!important}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}::-moz-selection{background-color:rgba(0,0,0,.15);color:#fff}::selection{background-color:rgba(0,0,0,.15);color:#fff}*,*::after,*::before{box-sizing:border-box}html{font-size:62.5%}body{line-height:1.25em;font-size:1.6rem;font-family:"Quicksand",sans-serif;color:#fff;background-color:#e8ebf5;letter-spacing:-.5px;overflow-x:hidden}body::after{clear:both;content:"";display:table}a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{padding:0;border:0;outline:0;vertical-align:baseline;background:0 0;text-align: left}span,b{font-family:"Quicksand",sans-serif!important}ins{text-decoration:underline}del{text-decoration:line-through}dl,ul{list-style-position:inside;font-weight:400;list-style:none}ul li{list-style:none}caption,th{text-align:center}img{border:none;position:relative}a,a:visited{text-decoration:none;color:#fdfd46}.clear{clear:both}.section,.widget,.widget ul{margin:0;padding:0}:focus{outline:0}a img{border:0}abbr{text-decoration:none}.separator a{clear:none!important;float:none!important;margin-left:0!important;margin-right:0!important}#navbar-iframe{display:none;height:0;visibility:hidden}.widget-item-control,a.quickedit{display:none!important}.index .home-link,.home-link{display:none!important}.status-msg-wrap{margin:0 auto 25px;text-transform:uppercase;font-size:11px;display:none}.status-msg-border{border:1px solid #eee;opacity:.7;border-radius:0}.status-msg-bg{background-color:#f8f8f8;opacity:1;filter:none}.feed-links{clear:both;display:none;line-height:2.5em}.widget li,.BlogArchive #ArchiveList ul.flat li{padding:0}.post-header,.post-footer{line-height:inherit}body{background:#1a1a1a url() repeat scroll top left;font-family:"Quicksand",sans-serif;color:#fff;font-size:15px;font-weight:400;word-wrap:break-word;margin:0;padding:0}.row{padding:0 15px;margin:0 auto;max-width:1200px}.noah-main-content{max-width:1210px}#header-wrapper{margin:0 0 20px}#top-web{background:#232323!important;height:50px;line-height:50px;box-shadow:0 0 5px rgba(0,0,0,.2)}#menu-web{float:left}#logo-web{height:50px;line-height:50px;display:inline-block;float:left;padding:4px 10px 0 0}#navigation{width:100%;height:50px;text-transform:uppercase}#navigation ul.menus{background:#359131;height:auto;overflow:hidden;position:absolute;z-index:99;display:none}#navigation a{display:block;line-height:50px;padding:0 10px 0;text-decoration:none;color:#eee;font-weight:700;font-size:15px;transition:.4s}#navigation ul,#navigation li{margin:0 auto;padding:0;list-style:none}#navigation ul{height:45px;width:100%}#navigation li{float:left;display:inline;position:relative}#navigation input{display:none;margin:0;padding:0;width:100%;height:45px;opacity:0;cursor:pointer}#navigation label{display:none;width:100%;height:45px;line-height:45px;text-align:center;color:#fff;font-size:28px}#navigation label span{font-size:16px;position:absolute;left:35px}#navigation ul.menus li{display:block;width:100%;text-transform:none;text-shadow:none;border-bottom:1px dashed #31AFDB}#navigation ul.menus a{color:#FFF;line-height:45px}#navigation li ul{background:#232323;margin:0;width:500px;height:auto;position:absolute;top:50px;left:0;z-index:10;display:none;box-shadow:0 6px 12px rgba(0,0,0,.175);border-top:2px solid #2ecb70}#mega-1{width:650px!important}li.submega-1 a{width:25%!important}#navigation ul>li>ul>li:hover{background-color:rgba(255,255,255,.01)}#navigation li a:hover{color:#2ecc71}#navigation li li{display:block;float:none}#navigation li ul ul{left:100%;top:0}#navigation li li>a{font-size:14px;display:block;padding:0 10px;margin:0;line-height:35px;text-decoration:none;color:#eee;text-transform:none;font-weight:400;float:left;width:33.3333333%}#navigation li li>a:hover{color:#2ecb70}#navigation li:hover>ul{display:block}.search{float:right;border:2px solid #ccc;border-radius:20px;height:35px;line-height:33px;padding:0 8px;margin:7px 0;font-size:12px;letter-spacing:0;font-weight:700}.search a{color:#eee}.box-search{text-align:center;z-index:99;width:auto;position:absolute;left:25%;right:25%;top:30%;font-size:35px}#open-search{background:rgba(0,0,0,1);position:fixed;top:0;left:0;right:0;bottom:0;margin:0;z-index:999;transition:all .3s}a.popup-close{position:absolute;top:0;right:0;font-weight:700;font-size:25px;line-height:50px;color:#fff;background:#b71414;width:50px;height:50px;text-align:center;display:block}a.popup-close:hover{color:#fff}#search-box-pc{position:relative;margin:0}#search-form-pc{overflow:hidden;margin:0}#search-text{font-size:13px;color:#ddd;border-width:0;background:transparent}#search-box-pc input[type="text"]{width:100%;padding:0;color:#fff;outline:none;font-family:"Quicksand",sans-serif;display:block;opacity:1;border:0;background:transparent;height:100px;border-bottom:1px dashed;text-align:center;font-size:30px}#search-text-pc::-webkit-input-placeholder{color:#fff}ul.menu-user{float:right;padding:0;margin:7px 0}.menu-user li{float:left;line-height:normal}.menu-user li a{display:block;color:#fff;margin-left:10px;background:#2ecc71;padding:0;transition:all 0.3s;border-radius:30px;text-transform:uppercase;font-size:18px;font-weight:500;width:35px;height:35px;line-height:35px;text-align:center}.phim-wrapper{padding:0}.phim-left{width:70%;float:left}.phim-right{padding-left:20px;width:30%;float:right;display:table-cell;vertical-align:top;word-wrap:break-word;overflow:hidden;position:relative}.phim-right h8{clear:both;display:inherit}.phimlq{margin:0 10px 20px!important;;text-align:left!important;font-size:20px!important;padding:0 20px!important;border-bottom:0!important;background:rgba(0,0,0,.5);color:#fff!important;display:inline-block;height:40px;line-height:40px!important;border-radius:3px}.phim-right h8,.phim-right h2,.phim-right h3,.phim-right h4,.phimlq{font-weight:700;color:#cdcdcd;text-transform:uppercase;font-size:18px;margin:0 -10px 10px;padding:0 10px 8px;line-height:normal;border-bottom:1px solid rgba(255,255,255,.1);text-align:center}.popular-posts ul{margin:0;padding:0}.popular-posts li{padding:0 0 10px;border-bottom:1px solid rgba(255,255,255,.05);margin:0 0 10px;height:101px}.popular-posts li:first-child{padding-top:0}.popular-posts li:last-child{padding-bottom:0;border-bottom:0;margin-bottom:0}.item-thumbnail{float:left;margin-right:10px;height:65px}.item-thumbnail img{height:90px;width:65px;border-radius:3px}.ppl-vi{white-space:nowrap;text-overflow:ellipsis;font-weight:700;color:#cdcdcd;text-transform:none;font-size:15px;overflow:hidden}.ppl-en{font-size:14px;color:#ccc;font-weight:400;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;line-height:normal;margin:4px 0}.hehehe{color:#ddd;font-size:10px;background:#1a1a1a;padding:3px 13px;border-radius:20px;display:inline-block;position:relative;text-transform:uppercase;font-size:10px;font-weight:700;line-height:normal;text-shadow:0 1px 2px #222}.sidebar{padding:0;margin:0}.sidebar .widget{display:inline-block;margin:0 0 20px;width:100%;padding:10px;background:rgba(0,0,0,.3)}.sidebar .widget:last-child{margin-bottom:20px}#footer-wrapper{float:right;line-height:22px;font-size:14px;padding:20px 0;margin-top:0;background:rgba(0,0,0,.5);width:100%;color:#999;font-weight:400}#footer-wrapper a:hover{color:#2ecc71;transition:.3s}#footer-wrapper a{color:#999}.admin-web{float:none;width:100%}.top-scroll{position:fixed;bottom:10px;right:10px;z-index:10000;width:30px;height:30px;line-height:25px;font-size:25px;color:#fff;background:#333;opacity:.7;filter:alpha(opacity=50);font-weight:700;text-align:center;border:1px solid #f2f2f2}.top-scroll:hover{opacity:1;filter:alpha(opacity=100)}.tn-tagfin{width:100%;float:left;padding-top:0;color:#4c8a31;margin:0 10px 20px}.tn-tagf h5{margin-bottom:0;margin-top:0;display:inline-block;font-weight:inherit;font-size:14px}.tn-atag{display:inline-block;background-color:rgba(0,0,0,0.3);color:#fff!important;text-decoration:none;padding:5px 10px;line-height:normal;margin-bottom:3px}.tn-atag:hover{background:rgba(0,0,0,0.8);transition:.3s}#info-box{margin-left:90px;margin-top:-55px;position:absolute}#info-name{float:left;overflow:hidden;word-wrap:break-word}#info-name a{width:120px;font-size:18px;font-weight:400;text-shadow:0 2px 4px rgba(0,0,0,.9);color:#fff;line-height:normal}#info-content{margin-top:-26px;margin-right:10px;line-height:normal;float:right;padding:2px 10px;cursor:pointer;text-align:center;display:inline-block;white-space:nowrap;text-shadow:0 1px 0 #fff;border:1px solid #ccc;border-radius:2px;font-weight:700;background-color:#fff;box-shadow:0 1px 1px rgba(0,0,0,.05)}#info-content a{color:#222;font-size:13px;line-height:normal;display:inherit}.main-movie-content,.tl_remove,span.top-xem{color:#333}
+]]></b:skin>
+<style>/* Responsive */@media screen and (max-width:1200px){.widget-content.popular-posts{max-width:100%}.row{max-width:1200px}}@media screen and (max-width:1100px){.row{max-width:970px}#main-top{height:260px!important}}@media screen and (max-width:980px){#main-top{height:auto!important}#slider-top{width:100%!important}}@media screen and (max-width:950px){.phim-left{width:100%;border-right:0;padding-right:0}.phim-right{padding:0;width:100%;overflow:hidden;border-left:0}.widget-content.popular-posts{max-width:100%}.popular-posts li{width:33.33333333%;float:left}#header-wrapper{margin:0 0 20px}#menu-web{width:100%}#logo-web{width:100%;padding:4px 0}.logo{float:none;margin:0 auto;display:block;width:155px;text-align:center}.search span{display:none}ul.menu-user{display:none}.search{display:block;position:absolute;right:0;border:0;font-size:28px;top:3px}#footer-wrapper{padding:20px}.admin-web{width:100%;float:none;text-align:center}.logo-day{float:none!important;padding:0!important}li.sub-mb{clear:both;border-top:1px solid #333}#navigation{position:inherit;height:0}#navigation li ul{display:block;width:100%!important}#navigation ul{background:#222;position:relative!important;top:100%!important;left:0;z-index:9999;height:auto;display:none}#navigation ul.menus{width:100%;position:static;padding-left:20px}#navigation li{display:block;width:100%;float:none}#navigation input,#navigation label{width:50px;height:50px;line-height:47px;position:absolute;top:0;left:0;display:block;text-align:center}#navigation input{z-index:4}#navigation input:checked + label{color:#fff}#navigation input:checked~ul{display:block;width:100%}#navigation li:hover &gt;ul{width:100%}#search-box-pc input[type=&quot;text&quot;]{font-size:12px}}@media (max-width:800px){.top-scroll{display:none!important;visibility:hidden!important}img.img-mb{display:none!important}}@media screen and (max-width:768px){.widget-content.popular-posts{max-width:100%}.popular-posts li{width:50%}.post-gambar{height:250px!important}.post-gambar img{max-height:250px!important}}@media screen and (max-width:700px){.popular-posts li{width:100%}}@media screen and (max-width:420px){.widget-content.popular-posts{max-width:100%}#navigation li li &gt;a{width:50%!important}.post-gambar{height:210px!important}.post-gambar img{max-height:210px!important}}@media screen and (max-width:350px){#navigation li li &gt;a{width:100%!important}.movie-stt{display:none}}</style>
+<style>.phimitem h3{color:#222;overflow:hidden;line-height:20px;font-weight:400;background:url(//i.imgur.com/Sn3PPUm.jpg) top repeat-x;margin:-35px 0 0 0;position:relative;padding:15px 5px 5px;text-align:center;border-radius:5px}.ovelay-playnow:after{content:&quot;&quot;;width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,.43);transition:all 0.3s ease 0s;z-index:1}.icon-playnow{background:rgba(0,0,0,1);height:60px;width:60px;position:absolute;top:50%;left:50%;margin:-50px 0 0 -30px;border-radius:50%;opacity:.9;transform:scale(1.5);transition:all 0.3s ease-in-out;z-index:9;border:5px solid #fff}.icon-playnow:after{content:&quot;&quot;;position:absolute;top:50%;left:50%;border:15px solid transparent;border-left:20px solid #fff;margin:-15px 0 0 -6px}.icon-hover{background:url(//i.imgur.com/Ma9zxSM.png) no-repeat;width:60px;height:60px;background-size:cover;position:absolute;top:50%;left:50%;margin-top:-30px;margin-left:-30px;opacity:0;-webkit-transition:.2s}.top-hover{background:url(//i.imgur.com/Ma9zxSM.png) no-repeat;width:40px;height:40px;background-size:cover;position:relative;top:0;left:50%;margin:-70px 0 0 -20px;opacity:0;transform:scale(1);-webkit-transition:.2s}#blog-pager{clear:both;margin:10px auto 20px;text-align:center;padding:0;color:#fff}.blog-pager{background:none}.displaypageNum a,.showpage a,.pagecurrent{font-size:14px;padding:5px 12px;margin:0 5px;color:#cdcdcd;background-color:#222;border-radius:3px;transition:.4s}.displaypageNum a:hover,.showpage a:hover,.pagecurrent{background:#2ecc71;text-decoration:none;color:#fff;border-radius:3px}#blog-pager .pagecurrent{font-weight:700;color:#fff;background:#2ecc71}.showpageOf{display:none!important}#blog-pager .pages{border:none}.showpageNum a:hover,.showpage a:hover{background:red}.firstpage,.lastpage,#phimle-header h1{display:none}::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-button{width:0;height:0}::-webkit-scrollbar-track{background-color:#444}::-webkit-scrollbar-track-piece{background-color:rgba(0,0,0,.15)}::-webkit-scrollbar-thumb{height:50px;background-color:#444}::-webkit-scrollbar-corner{background-color:#444}.bat-den{display:none;background:#000;height:100%;left:0;opacity:.9;position:fixed;top:0;width:100%;z-index:2;cursor:pointer}.item-hide{background:none}.apivideo,.add-on{z-index:5;position:relative}.phimabout:hover .icon-hover,.in-article:hover .icon-hover,.lable-update:hover .icon-hover,.item-content:hover .top-hover{transform:scale(1);opacity:1;visibility:visible}</style>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<style>#phim-chinh,.titlehome,#main{display:none}#lable-phim{margin:0 0 10px;position:relative;clear:both}#post-home{display:inline-block;position:relative;margin:20px 0 -15px;padding:0;width:100%}.lable-img{width:100%;height:200px}.phim-them{float:left;line-height:25px;color:#aaa;padding-left:10px;font-size:15px}.phim-them a{color:#aaa}.phim-them a:hover,.see-more:hover{color:#2ecb70}.lable-update:hover{transition:.3s}img.img-lable{width:100%;height:100%;border-radius:5px}.lable-update{display:block;overflow:hidden;width:20%;float:left}.lable-update .lable-about .title-vi{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-align:center;line-height:normal;margin:-35px 0 0 0;position:relative;padding:15px 5px 5px;background:url(//i.imgur.com/BAVgtcw.jpg) top repeat-x;border-radius:5px}.lable-update .lable-about .title-vi a{color:#fff;font-weight:500;font-size:15px;transition:.3s}.lable-update:hover .title-vi a:hover{color:#fff}.lable-update .lable-about .title-en{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-align:inherit;line-height:normal;text-transform:none}.lable-update .lable-about .title-en a{color:#ccc;padding:0;display:block;font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;line-height:normal;font-weight:400;display:none}.lable-about{display:block;overflow:hidden;width:100%;margin:0 0 20px;padding:0 10px;transition:.3s}.lable-about:hover . h3.lable-home{display:block;margin:0;padding:5px 0 0 0}h3.lable-home a{color:#cdcdcd}.lable-stt{position:relative;float:none;width:auto}.lable-stt .status{position:absolute;left:4px;top:4px;z-index:9;padding:4px;color:#222;border-radius:3px;margin-right:4px}.home-movie-content a,.lable-stt .complete{display:none}.home-movie-content{position:relative}@media screen and (max-width:600px){.lable-update{width:33.333333%}}@media screen and (max-width:420px){.lable-update{width:50%}}#tabs{background:none}.menu-phim{float:left;height:40px;line-height:40px;color:#fff;text-transform:uppercase;padding:0 20px;text-align:center;font-weight:700;background:rgba(0,0,0,.5);border-radius:3px;margin-right:5px;margin-left:10px;font-size:20px}.name-phim{padding:0}.tabs{width:100%;max-width:100%;float:none;list-style:none;padding:0;margin:auto;display:block;overflow:hidden}.tabs:after{content:&#39;&#39;;display:table;clear:both}.tabs input[type=radio]{display:none}.tabs label{display:table-cell;float:left;padding:0 20px;color:#ccc;font-size:14px;font-weight:400;text-align:center;cursor:pointer;transition:all .3s;margin:0 5px;height:40px;line-height:40px;border-radius:3px}.tabs label span{display:block}.tabs label i{display:none;height:45px;line-height:45px}.tabs label:hover{color:#fff;background:#303030}.tab-content{display:none;width:100%;float:left}.tab-content *{-webkit-animation:showx .5s ease-in-out;-moz-animation:showx .5s ease-in-out;animation:showx .5s ease-in-out}.tabs [id^=&quot;tab&quot;]:checked + label{color:#fff;background:#303030}#tab1:checked~#tab-content1,#tab2:checked~#tab-content2,#tab3:checked~#tab-content3,#tab4:checked~#tab-content4{display:block}.more-tabs{float:right;height:40px;margin:-40px 0 0;line-height:40px;font-size:40px;padding:0 10px}.more-tabs a{color:#cdcdcd;transition:.4s}.more-tabs a:hover{color:#2ecc71}.more-tabs2{float:right;height:40px;margin:0;line-height:40px;font-size:40px;padding:0 10px}.more-tabs2 a{color:#cdcdcd;transition:.4s}.more-tabs2 a:hover{color:#2ecc71}#tabs2{background:none}.name-phim2{padding:0}.tabs2{width:100%;max-width:100%;float:none;list-style:none;padding:0;margin:auto;display:block;overflow:hidden}.tabs2:after{content:&#39;&#39;;display:table;clear:both}.tabs2 input[type=radio]{display:none}.tabs2 label{display:table-cell;float:left;padding:0 20px;color:#ccc;font-size:14px;font-weight:400;text-align:center;cursor:pointer;transition:all .3s;margin:0 5px;height:40px;line-height:40px;border-radius:3px}.tabs2 label span{display:block}.tabs2 label i{display:none;height:45px;line-height:45px}.tabs2 label:hover{color:#fff;background:#303030}.tab-content2{display:none;width:100%;float:left}.tab-content2 *{-webkit-animation:showx .5s ease-in-out;-moz-animation:showx .5s ease-in-out;animation:showx .5s ease-in-out}.tabs2 [id^=&quot;tab&quot;]:checked + label{color:#fff;background:#303030}#tab12:checked~#tab-content12,#tab22:checked~#tab-content22,#tab32:checked~#tab-content32,#tab42:checked~#tab-content42,#tab52:checked~#tab-content52{display:block}.sliderz-wrapper{overflow:hidden;max-width:100%;max-height:300px;margin:auto;position:relative;margin-bottom:10px;margin:0}.sliderz-entry-list-wrapper{position:relative;width:100%;height:0;padding-top:40%;left:0;transition:.5s all cubic-bezier(.78,-.1,.58,1)}.sliderz-entry-list{display:flex;justify-content:space-around;position:absolute;width:100%;height:100%;top:0;left:0}.sliderz-entry{width:33%;height:100%;box-sizing:border-box}.sliderz-preview-img{width:100%;height:100%}.sliderz-prev,.sliderz-next{width:50px;height:100%;position:absolute;z-index:2;opacity:.1;transition:.5s all ease-out;cursor:pointer}.sliderz-next{right:-30px;top:0}.sliderz-wrapper:hover .sliderz-prev,.sliderz-wrapper:hover .sliderz-next{opacity:1}.sliderz-prev-btn,.sliderz-next-btn{font-size:30px;position:absolute;top:45%;width:50px;height:50px;z-index:3;color:#fff;transition:.5s all ease-out;text-shadow:0 1px 2px #222}.sliderz-wrapper .sliderz-prev-btn{left:-30px}.sliderz-wrapper .sliderz-next-btn{right:-30px}.sliderz-wrapper:hover .sliderz-prev-btn{left:10px}.sliderz-wrapper:hover .sliderz-next-btn{right:10px}.sliderz-pick{position:absolute;top:10px;right:10px;display:flex}.sliderz-pick &gt;.sliderz-number{width:10px;height:10px;margin:4px;background:rgba(255,255,255,.78);display:block;border-radius:50%;cursor:pointer;transition:.5s all ease-out}.sliderz-pick &gt;.sliderz-number:hover,.sliderz-pick &gt;.sliderz-number.open{background:#4c8a31}#main-top{background:#1f2534;height:300px;margin:0 10px;display:block;position:relative}#slider-top{width:100%;float:left}.social-home{box-shadow:0 3px 3px 0 rgba(0,0,0,.2);background:#333;padding:10px;font-size:15px;margin:0 10px 20px;line-height:normal}</style>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<style>.post-content h3{background:none;font-weight:700;color:#2ecc71}.phim-right{display:none!important}.noah-main-content .content-wrapper{margin:0 auto!important;padding:0!important}.phim-left{margin:auto!important;width:100%;float:none!important}</style>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<style>#main{padding:20px 0 0}#phim-chinh{padding:0}.titlehome{font-weight:700;color:#fff;text-transform:uppercase;font-size:20px;margin:0 0 10px 10px;line-height:40px;padding:0 20px;display:inline-block;background:rgba(0,0,0,.5);border-radius:3px}.phimitem{width:20%;float:left}.phimabout{padding:0 10px 0;margin-bottom:20px;position:relative;cursor:pointer;transition:all .2s}.phim-img{height:200px}.phim-img img{width:100%;height:100%;border-radius:5px}.title-vi{font-weight:500;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:normal;font-size:15px}.title-en{font-weight:400;;color:#cdcdcd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:normal;font-size:14px;display:none}.status{text-transform:uppercase;position:absolute;color:#222;background:#FED700;font-size:10px;font-weight:700;float:right;clear:both;padding:4px;left:15px;top:6px;display:inline-block;line-height:normal;border-radius:3px;margin-right:15px}.phimabout .br{display:none}@media screen and (max-width:600px){.phimitem{width:33.33333333%}}@media screen and (max-width:420px){.phimitem{width:50%}}</style>
+</b:if>
+<b:if cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}'>
+<style>.post-gambar{width:100%;position:relative;height:350px;overflow:hidden}.post-gambar img{width:100%;max-height:350px;position:relative;background-position:50% 25%;background-size:cover;display:inline-block;overflow:hidden;object-fit:cover}a.post-gambar img:after{content:&quot;&quot;&quot;&quot;;width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,.3);transition:all 0.3s ease 0s}.sever1{margin:0 5px 0 0;background:none}.sever1::before{font-family:FontAwesome;margin:0;content:&#39;\f26c&#39;;font-weight:400;font-size:14px}.sever{color:#fff;font-weight:400;margin:5px 0 10px;font-size:14px;text-transform:uppercase;display:inline-block;width:100%}.schedule,.tag_search,.info-mv img:first-child{display:none}.tag-mv{color:#ccc;padding:10px;max-height:300px;overflow:auto;font-size:13px;line-height:20px;border-top:1px solid rgba(255,255,255,.1);background-color:rgba(0,0,0,.3)}.info-content-mv{margin:0;clear:both;overflow:hidden}p.caption{text-transform:uppercase;font-size:16px;margin:0 -10px;padding:10px;color:#fff;font-weight:700;background:#444;text-shadow:0 0 5px #333;box-shadow:0 10px 7px rgba(0,0,0,.08);line-height:normal}p.caption-tag{display:none}.info-mv{color:#ccc;padding:10px 0 0;font-size:14px;margin:0;max-height:242px;overflow:auto}.info-mv img:first-child{display:none}.add-on-left{float:left;padding:8px 0}.add-on-right{float:right}.tat-batden,.baoloi{background:#128e46;padding:7px;border-radius:3px;text-transform:none;line-height:normal;margin-right:5px;margin-top:7px;float:right;transition:.4s;font-size:13px;color:#fff;font-weight:500}.jwplayer,.resizevideo{min-height:550px}.jwplayer{height:auto;position:relative;background:transparent;z-index:1}.include,#include{height:100%!important}.itemtitlte{display:none;padding:10px 10px 0;background:rgba(0,0,0,.3)}.itemtitlte h1{text-align:center;text-transform:uppercase;color:#2ecc71;font-size:18px;padding:0;font-weight:400;line-height:normal}.itemtitlte h1 .title-vi{text-align:left;text-transform:uppercase;color:#cdcdcd;font-size:20px;padding:0;font-weight:700;line-height:normal;white-space:normal}.itemtitlte h1 .title-en:before{content=&quot;Xem phim&quot;}.itemtitlte h1 .title-en{text-align:left;text-transform:none;color:#aaa;font-size:14px;display:block}.viewmovie{color:#fff;display:none}@media screen and (max-width:480px){img.image-item,.float-ck1{display:none!important}.noti-mv{margin-left:0!important}}.add-on{padding-bottom:5px;color:#bbb;margin:0}.information{padding:0;margin:0}.info-xyz{background:#2f2f2f;border:1px solid #444;padding:9px 0}.information-left,.information-right{margin:0}.information-left{width:100%;float:none}.information-right{width:100%;float:none;padding:20px 20px 0}.film-img,.film-iii{text-align:center;margin:0 auto}.film-iii{text-align:center;position:relative;margin:0;background:none}.film-img img{width:100%;height:400px;display:none}img.img-mb{display:block}.watch-movie:before{font-family:FontAwesome;content:&quot;\f01d&quot;;padding:0 10px 0 0;font-weight:400}.information-share:before{font-family:FontAwesome;content:&quot;\f1e0&quot;;padding:0 10px 0 0;font-weight:400}.information-share{background:#3b5998;border-color:#4267b2}.information-share,.watch-movie,.information-trailer{font-size:14px;display:inline-block;padding:8px 10px;border-radius:3px;color:#fff;margin:20px 5px;font-weight:700;line-height:normal;text-shadow:0 1px 2px #888}.information-share:hover,.watch-movie:hover,.information-trailer:hover{opacity:.9;transition:.3s}.information-trailer{background:#4cae4c;border-color:#4cae4c;display:none}.watch-movie{background:#5bc0de;border-color:#5bc0de}.lichchieu{margin:0 0 0 -4px;position:absolute;color:#fff;background:#a00a0a;font-size:14px;font-weight:700;float:left;clear:both;padding:4px;text-shadow:1px 1px 2px #111;white-space:nowrap;display:inline-block}.status-item:before,.lichchieu:before{content:&quot;&quot;;position:absolute;left:0;top:100%;z-index:inherit;border-left:4px solid rgba(161,28,9,0);border-right:4px solid #671409;border-bottom:4px solid rgba(162,29,10,0);border-top:4px solid #671409}.status-item:after,.lichchieu:after{content:&quot;&quot;;float:right;position:absolute;top:0;right:-14px;width:0;height:0;border-color:transparent transparent transparent #a00a0a;border-style:solid;border-width:13px 0 14px 14px}.movie-information{-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;padding:30px 0 0 8px;line-height:26px;border:1px solid #000;font-size:13px;color:#bbb;background:#000;height:350px;overflow:auto}.movie-information2{padding:0;font-size:13px;color:#bbb;height:inherit;overflow:auto}.movie-list b{line-height:35px;font-size:12px}.movie-list button{min-width:30px;outline:none;font-family:&quot;Quicksand&quot;,sans-serif}.episode{border:0;font-size:14px;text-decoration:none;white-space:nowrap;word-wrap:normal;line-height:normal;cursor:pointer;color:#fff;border-radius:2px;box-shadow:none;background:#555;margin-right:2px;padding:4px 7px;margin-bottom:5px;transition:.3s}.episode:hover,.episode-hover{background:#2ecc71;position:relative}.movie-list{border-top:2px solid #555;padding:10px;margin:0}.movie-list,.choose-episode,.status-item{display:none}.movie-information img,.movie-information,.hidden,.comments,#blog-pager,.movie-content-1 span.status,.movie-content-1 img{display:none!important}.popular-row{width:20%;float:left}.in-article{padding:0 10px 0;margin-bottom:20px;position:relative;cursor:pointer;transition:all .2s}.wrap-photos{height:200px;margin:0}.popular-row img{width:100%;height:100%;border-radius:5px}.in-article h3{color:#222;overflow:hidden;line-height:20px;font-weight:400;padding:30px 5px 5px;line-height:normal;position:relative;background:url(//i.imgur.com/cs6Zpvn.jpg) top repeat-x;box-sizing:border-box;border-radius:5px;text-align:center;margin:-50px 0 0}.on-off .title-vi{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-weight:700;color:#cdcdcd;font-size:20px;text-align:inherit;line-height:normal;text-shadow:0 1px 3px #222}.on-off .title-en{font-size:14px;color:#ddd;font-weight:400;white-space:nowrap;text-overflow:ellipsis;text-align:inherit;overflow:hidden;margin:2px 0;display:block}.title-vi{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-weight:500;color:#fff;font-size:15px}.title-en{font-size:14px;color:#ccc;font-weight:400;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;display:none}.box-info{display:inline-block;width:100%;margin:0 0 20px;background:rgba(0,0,0,.3)}.fb-cmt{margin:0 0 20px;padding:0!important;background:rgba(0,0,0,.3)}.tld-main{margin:0 -10px;background:none;padding:0!important}.box-info,.fb-cmt,.tld-main{padding:0}.tags a{display:inline-block;height:24px;line-height:24px;position:relative;margin:0 10px 8px 12px;padding:0 10px 0 8px;background:#3a5e82;-webkit-border-bottom-right-radius:3px;border-bottom-right-radius:3px;-webkit-border-top-right-radius:3px;border-top-right-radius:3px;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);color:#fff;font-size:12px;text-decoration:none;text-shadow:0 1px 2px rgba(0,0,0,.2);font-weight:700}.tags a:before{content:&quot;&quot;;position:absolute;top:0;left:-12px;width:0;height:0;border-color:transparent #3a5e82 transparent transparent;border-style:solid;border-width:12px 12px 12px 0}.tags a:after{content:&quot;&quot;;position:absolute;top:10px;left:1px;float:left;width:5px;height:5px;-webkit-border-radius:50%;border-radius:50%;background:#fff;-webkit-box-shadow:-1px -1px 2px rgba(0,0,0,.4);box-shadow:-1px -1px 2px rgba(0,0,0,.4)}.schedule{margin:15px 0 0}.ttlc{color:#ddd;padding:10px 0 0;font-size:14px}.movie-data-1{color:#333;font-size:14px;margin-top:5px}.movie-data-1 span.status,.movie-data span.status{color:#fff;font-weight:400}.movie-data-1 li:before{font-family:FontAwesome,&quot;Quicksand&quot;;content:&quot;\f192&quot;;padding:0 5px 0 1px;font-size:12px;font-weight:400;white-space:nowrap;color:#ccc}.movie-data-1 li{padding:10px 0 5px;text-overflow:ellipsis;overflow:hidden;line-height:normal;white-space:nowrap;color:#fff}.movie-data-1 li label,.movie-data li label{margin:0;color:#fff}.movie-data-1 li a{color:#f15b5b}.movie-data-1 li a:hover{color:#2ecc71}.page-content{background:#fff;color:#000;padding:20px;line-height:24px;margin:0;border-radius:5px}.page-content h1{font-size:25px;text-transform:uppercase;font-family:&quot;Quicksand&quot;,sans-serif;font-weight:700;line-height:normal;text-align:center}.post-content{font-size:14px;padding:15px 0}.post-content h3{color:#000;font-size:20px;color:#000;font-size:20px;height:initial;line-height:33px}.post-content h4{padding:15px 0;font-weight:700}#Breadcrumbs{font-size:14px;padding:0;font-weight:700;text-decoration:none;overflow:hidden;display:none;margin:0 0 10px;color:#333}#Breadcrumbs a.home_page:first-child{padding-left:10px}#Breadcrumbs a,#Breadcrumbs p{padding:5px 10px 5px 20px;color:#fff;text-decoration:none;position:relative;display:block;float:left;line-height:normal;background:#333;font-weight:400;font-size:13px}#Breadcrumbs p:before,#Breadcrumbs a:before{content:&quot;&quot;;display:block;width:0;height:0;border:15px solid transparent;border-left:15px solid #999;position:absolute;top:50%;margin-top:-15px;margin-left:-1px;left:100%;z-index:1}#Breadcrumbs p:after,#Breadcrumbs a:after{content:&quot;&quot;;display:block;width:0;height:0;border-top:15px solid transparent;border-bottom:15px solid transparent;border-left:15px solid #333;position:absolute;top:50%;margin-left:-2px;margin-top:-15px;left:100%;z-index:2}#Breadcrumbs div{float:left}.post-hatom{display:none}@media screen and (max-width:1080px){.jwplayer,.resizevideo{min-height:470px}.movie-content-1 .movie-information{margin-left:4px;margin-right:11px}.movie-information{height:auto}.schedule{margin:15px 0 0}}@media screen and (max-width:1000px){.film-img img{display:none}.film-iii{margin:0;background:none;position:inherit}.information-right{width:100%}.information-left{width:100%;float:none}}@media screen and (max-width:960px){.jwplayer,.resizevideo{min-height:460px}.light,#Breadcrumbs{display:none}}@media screen and (max-width:768px){.jwplayer,.resizevideo{min-height:365px}.movie-information{height:inherit}.movie-content-1 .movie-information{margin-left:4px;margin-right:11px}.movie-information{height:auto}.schedule{margin:15px 0 0}}@media screen and (max-width:640px){.jwplayer,.resizevideo{min-height:300px}.popular-posts li{width:100%}}@media screen and (max-width:480px){.jwplayer,.resizevideo{min-height:150px}.info-mv{clear:both;max-height:150px;overflow:auto}.movie-information{height:inherit}.movie-content-1 .movie-information{margin-left:4px;margin-right:11px}.movie-information{height:auto}.schedule{margin:15px 0 0}}@media screen and (max-width:320px){.jwplayer,.resizevideo{min-height:180px}.tld-main{padding:0}}@media screen and (max-width:950px){.popular-row{width:20%}.wrap-photos{height:230px}}@media screen and (max-width:800px){.popular-row{width:25%}}@media screen and (max-width:600px){.popular-row{width:33.33333333%}}@media screen and (max-width:420px){.popular-row{width:50%}}.movie-lq{position:relative}.movie-lq .status{position:absolute;left:4px;top:4px;z-index:9;padding:4px;color:#222;border-radius:3px;margin-right:4px}.movie-lq .status{text-transform:uppercase;position:absolute;color:#222;background:#FED700;font-size:10px;font-weight:700;float:right;clear:both;padding:4px;top:6px;display:inline-block;line-height:normal;border-radius:3px;margin-right:15px}</style>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<style>#error-page{position:relative;text-align:center;top:0;right:0;bottom:0;left:0}#error-404{margin:100px auto}#error-404 .box-404{width:200px;font-family:&quot;Quicksand&quot;,sans-serif;height:200px;background:#2ecc71;color:#fff;font-size:80px;line-height:200px;border-radius:10px;margin:0 auto 20px;position:relative}#error-404 .box-404::after{content:&quot;&quot;;width:0;height:0;bottom:-8px;border-color:#2ecc71 transparent transparent;border-style:solid;border-width:9px 9px 0;position:absolute;left:47%}#error-404 h1{text-transform:uppercase}#error-404 p{color:#fff;line-height:1.7em;font-size:15px;font-family:&quot;Quicksand&quot;,sans-serif}#error-404 h1{color:#fff;line-height:1.8em;font-family:&quot;Quicksand&quot;,sans-serif;font-size:30px;font-weight:700}@media screen and (max-width:1200px){#error-page{margin:auto;;text-align:center;top:0;right:0;bottom:0;left:0}}@media screen and (max-width:768px){#error-page{margin:10px;position:relative;text-align:center}}</style>
+</b:if>
+<!-- JS oncontextmenu=&#39;return false&#39; -->
+<b:include data='blog' name='google-analytics'/>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'/>
+<script src='//cdnjs.cloudflare.com/ajax/libs/lazyloadjs/3.2.2/lazyload.min.js'/>
+
+
+<script type='application/ld+json'>
+{&quot;@context&quot;:&quot;http://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;url&quot;: &quot;<data:blog.homepageUrl/>&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: &quot;<data:blog.homepageUrl/>search?q={search_term}&quot;, &quot;query-input&quot;: &quot;required name=search_term&quot; } }</script>
+<meta content='9hoc3yMzRA5Lk_L06r9uf7tMpZ6IwRmjLfr65c1z8c4' name='google-site-verification'/>
+
+
+
+&lt;/head&gt;
+&lt;body&gt;
+<!--Facebook-->
+<div id='fb-root'/>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &#39;https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v2.12&amp;appId=841533712677087&amp;autoLogAppEvents=1&#39;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+  var purl= location.href;
+  var fb_href = purl.substring(0,purl.indexOf(".html")+5);
+  var fbcm ='<div class="fb-comments" data-href="'+fb_href+'" data-colorscheme="dark" data-num-posts="5" data-width="100%"></div>';
+//]]>
+</script>
+
+<!-- top web -->
+<div id='header-wrapper' itemscope='itemscope' itemtype='//schema.org/WPHeader'>
+<div id='top-web'>
+<div class='row'>
+<!-- logo -->
+<div id='logo-web'>
+<a class='logo' expr:href='data:blog.homepageUrl' title='Trang chủ'><img alt='Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD Vietsub - Thuyết Minh' src='//i.imgur.com/sQ1hx79.png' style='max-width:170px' title='Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD Vietsub - Thuyết Minh'/></a>
+</div>
+
+<!-- menu -->
+<div id='menu-web'>
+<nav id='navigation' itemscope='itemscope' itemtype='//schema.org/SiteNavigationElement'>
+<input type='checkbox'/>
+<label><i class='fa fa-bars'/></label><ul>
+<li class='sub-mb'><a><i class='fa fa-folder-open'/> Thể loại</a>
+<ul class='sub-menu' id='mega-1'>
+<li class='submega-1'><a href='/search/label/co-trang' title='Phim Cổ Trang - Thần Thoại'>Cổ Trang - Thần Thoại</a></li>
+<li class='submega-1'><a href='/search/label/vo-thuat' title='Phim Võ Thuật - Kiếm Hiệp'>Võ Thuật - Kiếm Hiệp</a></li>
+<li class='submega-1'><a href='/search/label/hanh-dong' title='Phim Phiêu Lưu - Hành Động'>Phiêu Lưu - Hành Động</a></li>
+<li class='submega-1'><a href='/search/label/Phim Chiếu Rạp' title='Phim Chiếu Rạp'>Phim Chiếu Rạp</a></li>
+<li class='submega-1'><a href='/search/label/hinh-su' title='Phim Hình Sự'>Phim Hình Sự</a></li>
+<li class='submega-1'><a href='/search/label/vien-tuong' title='Phim Khoa Học - Viễn Tưởng'>Khoa Học - Viễn Tưởng</a></li>
+<li class='submega-1'><a href='/search/label/hoat-hinh' title='Phim Hoạt Hình'>Phim Hoạt Hình</a></li>
+<li class='submega-1'><a href='/search/label/hai-huoc' title='Phim Hài'>Phim Hài</a></li>
+<li class='submega-1'><a href='/search/label/tam-ly' title='Phim Tâm Lý - Tình Cảm'>Tâm Lý - Tình Cảm</a></li>
+<li class='submega-1'><a href='/search/label/kinh-di' title='Phim Ma - Kinh Dị'>Ma - Kinh Dị</a></li>
+<li class='submega-1'><a href='/search/label/the-thao' title='Phim Thể Thao - Âm Nhạc'>Thể Thao - Âm Nhạc</a></li>
+<li class='submega-1'><a href='/search/label/gia-dinh' title='Phim Học Đường - Gia Đình'>Học Đường - Gia Đình</a></li>
+<li class='submega-1'><a href='/search/label/chien-tranh' title='Phim Tài Liệu - Chiến Tranh'>Tài Liệu - Chiến Tranh</a></li>
+<li class='submega-1'><a href='/search/label/bi-an' title='Phim Bí Ẩn - Siêu Nhiên'>Bí Ẩn - Siêu Nhiên</a></li>
+<li class='submega-1'><a href='/search/label/phim-18' title='Phim 18+'>Phim 18+</a>
+</li>
+<li class='submega-1'><a href='/search/label/thuyet-minh' title='Thuyết Minh'>Thuyết Minh</a></li>
+</ul></li>
+<li class='sub-mb'><a><i class='fa fa-globe'/> Quốc gia</a>
+<ul class='sub-menu'>
+<li><a href='/search/label/au-my' title='Phim Âu - Mỹ'>Âu - Mỹ</a></li>
+<li><a href='/search/label/trung-quoc' title='Phim Trung Quốc'>Trung Quốc</a></li>
+<li><a href='/search/label/han-quoc' title='Phim Hàn Quốc'>Hàn Quốc</a></li>
+<li><a href='/search/label/nhat-ban' title='Phim Nhật Bản'>Nhật Bản</a></li>
+<li><a href='/search/label/hong-kong' title='Phim Hồng Kông'>Hồng Kông</a></li>
+<li><a href='/search/label/an-do' title='Phim Ấn Độ'>Ấn Độ</a></li>
+<li><a href='/search/label/thai-lan' title='Phim Thái Lan'>Thái Lan</a></li>
+<li><a href='/search/label/viet-nam' title='Phim Việt Nam'>Việt Nam</a></li>
+<li><a href='/search/label/quoc-gia-khac' title='Phim Quốc Gia Khác'>Quốc Gia Khác</a></li>
+</ul>
+</li>
+<li class='sub-mb'><a href='/search/label/phim-le'><i class='fa fa-film'/> Phim Lẻ</a></li>
+<li class='sub-mb'><a href='/search/label/phim-bo'><i class='fa fa-th-list'/> Phim Bộ</a></li>
+<li class='sub-mb'><a href='/search/label/phim-chieu-rap'><i class='fa fa-video-camera'/> Phim Chiếu Rạp</a></li>
+</ul>
+</nav>
+</div>
+
+<!-- user -->
+<ul class='menu-user'>
+<li class='donggop'><a href='//fb.com/phim18t' style='background: #577fbc;' target='_blank'><i class='fa fa-facebook'/></a></li> 
+</ul>
+<!-- search -->
+<a onclick='jQuery(&quot;#open-search&quot;).css(&quot;display&quot;,&quot;&quot;);'><div class='search'><i class='fa fa-search'/> <span>Nhập tên phim có dấu cần tìm</span></div></a>
+<div id='open-search' style='display:none'>
+<div class='box-search'>
+<div id='search-box-pc'>
+<form action='/search' id='search-form-pc' method='get' target='_blank'><input autocomplete='off' autofocus='' id='search-text-pc' name='q' placeholder='Nhập từ khoá và nhấn enter...' type='text'/></form>
+</div>
+</div>
+
+<a class='popup-close' onclick='jQuery(&quot;#open-search&quot;).css(&quot;display&quot;,&quot;none&quot;);' title='Close'><i class='fa fa-times'/></a>
+</div>
+</div>
+</div>
+</div>
+<div class='clear'/>
+<!-- end top -->
+
+<!-- player -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div class='row'>
+<div id='khungvideo'>
+<div class='apivideo'>
+<div class='jwplayer hidden' id='jwplayer' name='jwplayer'>
+<div class='include' id='include' name='include'/>
+</div>
+</div>
+<div class='add-on hidden'>
+<div style='border:#00FF00 2px dashed; padding: 4px; text-align:center; width:100%;'>
+Các bạn đang xem bằng điện thoại hãy chờ tải phim khoảng 10s rồi bấm play
+</div>
+<div class='add-on-left'>
+<div class='fb-like' data-action='like' data-layout='button_count' data-share='true' data-show-faces='false' data-size='large'/>
+</div>
+<div class='add-on-right'>
+<div class='baoloi'><a href='javascript:void(0)'><i aria-hidden='true' class='fa fa-frown-o'/> Báo lỗi</a></div>
+<div class='tat-batden'><a class='_sangtoi zid' href='javascript:void(0)' onclick='return _sangtoi()'>Tắt đèn</a></div>
+</div>
+
+<div style='clear:both'/>
+</div>
+</div>
+</div>
+</b:if>
+
+<div style='clear:both'/>
+<!-- main -->
+<main class='noah-main-content row'>
+<div class='content-wrapper'>
+<div id='content-wrapper' itemscope='itemscope' itemtype='//schema.org/Blog' role='main'>
+<div class='phim-wrapper'>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<div class='phim-main'>	
+<div class='phim-left'>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<div style='display:none'>
+<h1>Xem Phim Mới, Phim Chiếu Rạp, Phim Viễn Tưởng, Phim 18+ HD</h1>
+<h2>Phim Bộ mới nhất, Phim Lẻ hay nhất, Phim Cấp 3 18+ Hay Nhất</h2>
+  </div>
+<!-- All TOP -->
+<div id='main-top'>
+<div id='slider-top'>
+<div class='sliderz-wrapper'>
+<div class='sliderz-prev' onclick='sliderz_goto(-1)'><i aria-hidden='true' class='fa fa-chevron-left sliderz-prev-btn'/></div>
+<div class='sliderz-entry-list-wrapper'><div class='sliderz-entry-list'/></div>
+<div class='sliderz-next' onclick='sliderz_goto(-2)'><i aria-hidden='true' class='fa fa-chevron-right sliderz-next-btn'/></div><div class='sliderz-pick'/>
+</div>
+</div>
+</div>
+<div style='clear:both;padding:10px'/>
+<!-- Lable -->
+<script>//<![CDATA[
+/* Label Thumbs */
+'use strict';
+jQuery.ajaxSetup({
+    cache: true
+});
+
+function labelthumbs(id, label, max) {
+    var max = max ? max : "20";
+    var label = label ? "-/" + label : "";
+    var html = "";
+    jQuery.getJSON(location.origin + "/feeds/posts/default/" + label + "?orderby=updated&max-results=" + max + "&alt=json", function(e) {
+        var jsonfeed = e.feed.entry;
+        if (jsonfeed) {
+            for (var t in jsonfeed) {
+                var i, l = jsonfeed[t],
+                    n = l.title.$t;
+                if (t == jsonfeed.length) break;
+                for (var r = 0, length = l.link.length; r < length; r++) {
+                    if ("replies" == l.link[r].rel && "text/html" == l.link[r].type) l.link[r].title, l.link[r].href;
+                    if ("alternate" == l.link[r].rel) {
+                        i = l.link[r].href;
+                        break
+                    }
+                }
+                var m,s,a,b,c,d;
+                try {
+                    m = l.media$thumbnail.url
+                } catch (e) {
+                    s = l.content.$t, a = s.indexOf("<img"), b = s.indexOf('src="', a), c = s.indexOf('"', b + 5), d = s.substr(b + 5, c - b - 5), m = -1 != a && -1 != b && -1 != c && "" != d ? d : "//i.imgur.com/YdwUuUq.jpg"
+                }
+                 if ("content" in l) o = l.content.$t;
+                else if ("summary" in l) o = l.summary.$t;
+                else var o = "";
+                html += '<div class="lable-update"><div class="lable-about"><div class="lable-stt" onclick="window.location.replace(\'' + i + '\')") title="' + n + '"><div class="home-movie-content" name="main-movie-content"> ' + o.replace("Xem", "") + '</div> <div class="lable-img"><img class="img-lable" onload="lzld(this)" data-src="' + m.replace("/s72-c/", "/s160/") + '" src="//i.imgur.com/YdwUuUq.jpg"><span class="icon-hover"/><div class="br"/></div><class="lable-home" name="title">[' + n + ']</div></div></div>'
+            }
+        }
+    }).done(function() {
+        jQuery(id).html("").append(html);
+        getInfo()
+    })
+}
+//]]></script>
+<!-- Widget Tab -->
+<!-- TAB ALL 1 -->
+<div id='tabs'>
+<div class='tabs'>
+<span class='menu-phim'>Mới Cập Nhật</span>
+<input checked='' id='tab1' name='tabs' type='radio'/>
+<label for='tab1' onclick='labelthumbs(&quot;.tabphimmoi&quot;);'>
+	<span class='name-phim'>Tất Cả</span>
+</label>
+<input id='tab2' name='tabs' type='radio'/>
+<label for='tab2' onclick='labelthumbs(&quot;.tabphimle&quot;, &quot;Phim Lẻ&quot;);'>
+	<span class='name-phim'>Phim Lẻ</span>
+</label>
+<input id='tab3' name='tabs' type='radio'/>
+<label for='tab3' onclick='labelthumbs(&quot;.tabphimbo&quot;, &quot;Phim Bộ&quot;);'>
+	<span class='name-phim'>Phim Bộ</span>
+</label>
+<input id='tab4' name='tabs' type='radio'/>
+<label for='tab4' onclick='labelthumbs(&quot;.tabphimchieurap&quot;, &quot;Phim Chiếu Rạp&quot;);'>
+	<span class='name-phim'>Phim Chiếu Rạp</span>
+</label>
+<!-- Tab 1 -->
+<div class='tab-content' id='tab-content1'>
+<span class='more-tabs'><a href='/search/?&amp;max-results=30&amp;orderby=updated' title='Xem thêm Phim Mới Cập Nhật'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimmoi' id='post-home'>
+<script>jQuery(function(){labelthumbs(&quot;.tabphimmoi&quot;)});</script>
+</div>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- Tab 2 -->
+<div class='tab-content' id='tab-content2'>
+<span class='more-tabs'><a href='/search/label/phim-le' title='Xem thêm Phim Lẻ Mới'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimle' id='post-home'/>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- Tab 3 -->
+<div class='tab-content' id='tab-content3'>
+<span class='more-tabs'><a href='/search/label/phim-bo' title='Xem thêm Phim Bộ Mới'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimbo' id='post-home'>
+</div>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- Tab 4 -->
+<div class='tab-content' id='tab-content4'>
+<span class='more-tabs'><a href='/search/label/chieu-rap' title='Xem thêm Phim Chiếu Rạp'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimchieurap' id='post-home'/>
+</div>
+</div>
+</div>
+</div>
+<div style='clear:both'/>
+<div id='tabs2'>
+<div class='tabs2'>
+<span class='menu-phim'>Đề Xuất</span>
+<input checked='' id='tab12' name='tabs2' type='radio'/>
+<label for='tab12' onclick='labelthumbs(&quot;.tabphimhoanthanh&quot;, &quot;Hoàn Thành&quot;);'>
+	<span class='name-phim2'>Hoàn Thành</span>
+</label>
+<input id='tab22' name='tabs2' type='radio'/>
+<label for='tab22' onclick='labelthumbs(&quot;.tabphimhanquoc&quot;, &quot;Hàn Quốc&quot;);'>
+	<span class='name-phim2'>Hàn Quốc</span>
+</label>
+<input id='tab32' name='tabs2' type='radio'/>
+<label for='tab32' onclick='labelthumbs(&quot;.tabphimtrungquoc&quot;, &quot;Trung Quốc&quot;);'>
+	<span class='name-phim2'>Trung Quốc</span>
+</label>
+<input id='tab42' name='tabs2' type='radio'/>
+<label for='tab42' onclick='labelthumbs(&quot;.tabphimaumy&quot;, &quot;Âu - Mỹ&quot;);'>
+	<span class='name-phim2'>Âu - Mỹ</span>
+</label>
+<!-- Tab 1 -->
+<div class='tab-content2' id='tab-content12'>
+<span class='more-tabs'><a href='/search/label/Hoàn Thành?&amp;max-results=30&amp;orderby=published' title='Xem thêm'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimhoanthanh' id='post-home'>
+<script>jQuery(function(){labelthumbs(&quot;.tabphimhoanthanh&quot;, &quot;Hoàn Thành&quot;)});</script>
+</div>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- Tab 2 -->
+<div class='tab-content2' id='tab-content22'>
+<span class='more-tabs'><a href='/search/label/han-quoc' title='Xem thêm Phim Hàn Quốc'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimhanquoc' id='post-home'/>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- Tab 3 -->
+<div class='tab-content2' id='tab-content32'>
+<span class='more-tabs'><a href='/search/label/trung-quoc' title='Xem thêm Phim Trung Quốc'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimtrungquoc' id='post-home'/>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- Tab 4 -->
+<div class='tab-content2' id='tab-content42'>
+<span class='more-tabs'><a href='/search/label/au-my' title='Xem thêm Phim Âu - Mĩ'><i class='fa fa-plus-square'/></a></span>
+<div id='lable-phim'>
+<div class='tabphimaumy' id='post-home'/>
+</div>
+</div>
+</div>
+</div>
+<div style='clear:both'/>
+<!-- TAB ALL 3 -->
+<div id='tabs2'>
+<div class='tabs2'>
+<a href='/search/label/Trailer' title='Xem thêm Phim Đang Cập Nhật'><span class='menu-phim'>Phim Đang Cập Nhật</span></a>
+<!-- Tab 1 -->
+<div id='lable-phim'>
+<div class='tabtrailer' id='post-home'>
+<script>jQuery(function(){labelthumbs(&quot;.tabtrailer&quot;, &quot;Trailer&quot;, 10)});</script>
+</div>
+</div>
+<div style='clear:both'/>
+</div>
+</div>
+<div style='clear:both'/>
+</b:if>
+<div style='clear:both'/>
+<!-- Main -->
+<div id='phim-chinh'>
+<b:section class='main-blog' id='main-blog' showaddelement='yes'>
+  <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+      <b:widget-setting name='authorLabel'>Bởi</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+      <b:widget-setting name='showAuthor'>false</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='timestampLabel'>vào ngày</b:widget-setting>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+      <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='showLocation'>false</b:widget-setting>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>	
+  <b:if cond='!data:mobile'>    
+    <div class='blog-posts hfeed'>
+      <b:loop values='data:posts' var='post'>
+        <div class='phimitem'>
+          <b:include data='post' name='post'/>
+          <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+        </div>
+        <!-- Ad -->
+        <b:if cond='data:post.includeAd'>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+        </b:if>
+      </b:loop>
+    </div>
+    <!-- navigation -->
+    <b:include name='nextprev'/>
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+  <b:include cond='data:top.showPlusOne' name='googlePlusBootstrap'/>
+</b:includable>
+    <b:includable id='backlinkDeleteIcon' var='backlink'/>
+    <b:includable id='backlinks' var='post'/>
+    <b:includable id='comment-form' var='post'/>
+    <b:includable id='commentDeleteIcon' var='comment'/>
+    <b:includable id='comment_count_picker' var='post'/>
+    <b:includable id='comment_picker' var='post'/>
+    <b:includable id='comments' var='post'/>
+    <b:includable id='feedLinks'/>
+    <b:includable id='feedLinksBody' var='links'/>
+    <b:includable id='iframe_comments' var='post'/>
+    <b:includable id='mobile-index-post' var='post'/>
+    <b:includable id='mobile-main' var='top'/>
+    <b:includable id='mobile-nextprev'/>
+    <b:includable id='mobile-post' var='post'/>
+    <b:includable id='nextprev'>
+	<div style='clear:both'/>
+  	<div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+  </div>
+			  <div class='clear'/>	
+			  </b:includable>
+    <b:includable id='post' var='post'>
+			  <b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div id='Breadcrumbs'>
+<span itemscope='' itemtype='//data-vocabulary.org/Breadcrumb'><a class='home_page' expr:href='data:blog.homepageUrl' itemprop='url'><span itemprop='title'>Trang chủ</span></a></span>
+<b:loop values='data:posts' var='post'>
+<b:if cond='data:post.labels'> 
+<b:loop values='data:post.labels' var='label'> 
+<b:if cond='data:label.isLast == &quot;true&quot;'> 
+<span class='theloai' itemscope='' itemtype='//data-vocabulary.org/Breadcrumb'><a class='theloai_remove' expr:href='data:label.url' itemprop='url'><span class='tl_remove' itemprop='title'><data:label.name/></span></a></span>
+</b:if> 
+</b:loop> 
+<span><p><data:post.title/></p></span>
+</b:if> 
+</b:loop>
+</div> 
+</b:if>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<a expr:onclick='&quot;window.location.replace(\&quot;&quot; + data:post.url + &quot;\&quot;)&quot;' expr:title='data:post.title'>
+<div class='phimabout post hentry'>
+<div class='phim-img'><img class='image' expr:alt='data:post.title' expr:data-src='data:post.firstImageUrl' onload='lzld(this)' src='//i.imgur.com/YdwUuUq.jpg'/></div>
+<h3 class='entry-title' name='title'>[<data:post.title/>]</h3>
+<span class='icon-hover'/><div class='br'/>
+<div class='main-movie-content entry-content' name='main-movie-content'><data:post.snippet/></div>
+</div>
+</a>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div class='post hentry'>
+<div class='item-hide'>
+<div class='itemtitlte'>
+<h1 class='entry-title' name='title'> [<data:post.title/>] </h1>
+<div style='text-align:right;'><g:plusone size='tall'/></div>	
+</div>
+</div>
+<div class='information'>
+<div class='on-off'>
+<a class='xemvideo' id='xemvideo'>
+<div class='post-gambar' expr:title='data:post.title'><span class='icon-playnow'/><span class='ovelay-playnow'/><img expr:alt='data:post.title' expr:data-src='resizeImage(data:post.firstImageUrl, 600)' expr:title='data:post.title' onload='lzld(this)' src='//i.imgur.com/YdwUuUq.jpg'/></div>
+</a>
+</div>
+<div class='box-info'>
+<div class='box information-right' name='box'>
+<div class='on-off'>
+<!-- Hide lable -->
+<img class='img-mb' expr:alt='data:post.title' expr:data-src='resizeImage(data:post.firstImageUrl, 100)' expr:title='data:post.title' onload='lzld(this)' src='//i.imgur.com/YdwUuUq.jpg' style='width:140px;height:180px;float: left;margin:0 10px 10px 0'/>
+<h2 name='title'>[<data:post.title/>]</h2>
+<ul class='movie-data-1'>
+
+<li class='trangthai'><label>Trạng thái : </label><span class='trangthai_remove'><data:post.snippet/></span></li>
+
+<li class='theloai'><label>Thể loại :</label> 
+<span class='theloai_remove'><b:loop values='data:post.labels' var='label'><data:label.name/>,</b:loop></span>
+</li>
+<li class='quocgia'><label>Quốc gia :</label> 
+<span class='quocgia_remove'><b:loop values='data:post.labels' var='label'><data:label.name/>,</b:loop></span>
+</li>
+<li class='namxuatban'><label>Năm xuất bản :</label>
+<span class='namxuatban_remove'><b:loop values='data:post.labels' var='label'><data:label.name/>,</b:loop></span>
+</li>
+</ul>
+<div style='clear:both'/>
+<div class='noidungne'><div class='info-mv'><data:blog.metaDescription/></div></div>
+</div>
+<div class='movie-content-1 entry-content' name='main-movie-list'><data:post.body/></div>
+</div>
+<div class='infophim information-left'><div class='film-iii'><script>//<![CDATA[
+document.write('<a href="//www.facebook.com/sharer.php?u='+document.location.href+'"><div class="information-share">CHIA SẺ</div></a> <a class="xemvideo" id="xemvideo"><div class="watch-movie">XEM PHIM</div></a>');
+//]]></script></div></div>
+<span class='post-hatom'>
+<b:if cond='data:top.showTimestamp'>
+<b:if cond='data:post.url'>
+<a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published updated timeago' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+</b:if>
+</b:if>
+</span>
+</div>
+<div style='clear:both'/>
+<!-- Play -->
+<script>//<![CDATA[
+'use strict';var quocgia='',theloai='',namxuatban='';namxuatban=jQuery('img.img-mb').attr('title').split('-')[1];jQuery('span.namxuatban_remove').html(namxuatban.replace(/(.*?)\(([0-9]+)\)/gi,'$2'));var list_quocgia=['Âu - Mỹ','Trung Quốc','Hàn Quốc','Nhật Bản','Hồng Kông','Ấn Độ','Thái Lan','Việt Nam','Quốc Gia Khác'];var list_theloai=['Cổ Trang - Thần Thoại','Võ Thuật - Kiếm Hiệp','Phiêu Lưu - Hành Động','Phim Chiếu Rạp','Phim Hình Sự','Khoa Học - Viễn Tưởng','Phim Hoạt Hình','Phim Hài','Tâm Lý - Tình Cảm','Ma - Kinh Dị','Thể Thao - Âm Nhạc','Học Đường - Gia Đình','Tài Liệu - Chiến Tranh','Bí Ẩn - Siêu Nhiên','Phim 18+','Thuyết Minh'];for(var i=0,quocgia_length=list_quocgia.length;i<quocgia_length;i++){var arrLabel=jQuery('span.theloai_remove').html().split(',');for(var j=0,arrLabel_length=arrLabel.length;j<arrLabel_length;j++){var item=arrLabel[j].trim();if(item==list_quocgia[i]){if(quocgia){quocgia+=", <a href='/search/label/"+arrLabel[j]+"'>"+arrLabel[j]+'</a>'}else{quocgia+="<a href='/search/label/"+arrLabel[j]+"'>"+arrLabel[j]+'</a>'}}}}for(var i=0,theloai_length=list_theloai.length;i<theloai_length;i++){var arrLabel=jQuery('span.theloai_remove').html().split(',');for(var j=0,arrLabel_length=arrLabel.length;j<arrLabel_length;j++){var _item=arrLabel[j].trim();if(_item==list_theloai[i]){if(theloai){theloai+=", <a href='/search/label/"+arrLabel[j]+"'>"+arrLabel[j]+'</a>'}else{theloai+="<a href='/search/label/"+arrLabel[j]+"'>"+arrLabel[j]+'</a>'}}}}jQuery('span.quocgia_remove').html(quocgia);jQuery('span.theloai_remove').html(theloai);jQuery('span.trangthai_remove').html(jQuery('span.trangthai_remove').html().replace(/\[stt\/(.*?)]/gi, '<span class="status" name="status">$1</span>'));
+/* Replace List */for(var i=0,msg=jQuery('[name=main-movie-list]').length;i<msg;i++){var oldtext=jQuery('[name=main-movie-list]');var newtext=oldtext.html().replace(/(^|[\n ])([\w]+?:\/\/[^ ,\"\n\r\t<]*)/gi,'$2');newtext=newtext.replace(/\[stt\/(.*?)]/gi,'').replace(/\[\+\]/gi,'');newtext=newtext.replace(/\[info\](.*?)/gi,'<div class="movie-information">');newtext=newtext.replace(/\[\/info\]/gi,'</div>');newtext=newtext.replace(/\[link\]/gi,'<div class="movie-list">');newtext=newtext.replace(/\[\/link\]/gi,'</div>');newtext=newtext.replace(/\[(.*?)\*(.*?)\]/gi,'<button name="videos" onclick="tap(\'$2\', \'VIP\');" class="episode" id="VIP $1">$1</button>');newtext=newtext.replace(/\[(.*?)\|(.*?)\]/gi,'<button name="videos" onclick="tap(\'$2\', \'VIP\');" class="episode" id="VIP $1">$1</button>');newtext=newtext.replace(/\[(.*?)\^(.*?)\]/gi,'<button name="videos" onclick="tap(\'$2\', \'ALO\');" class="episode" id="ALO $1">$1</button>');newtext=newtext.replace(/\[banquyen\]/gi,'<button name="videos" onclick="tap(\'\', \'BANQUYEN\');" class="episode" id="BANQUYEN"></button>');newtext=newtext.replace(/\[chuyen@(.*?)\]/gi,'');newtext=newtext.replace(/\[br\/(.*?)]/gi,'<br/><b>$1</b><br/>');oldtext.html(newtext)}
+/* Function Apiplayer */function apiplayer(link) {
+	var apiplayer = '';
+	if (
+		link.match(/(phimbathu.com|bilutv.com|banhtv.com)/gi)
+		|| link.match(/(anime47.com|vkool.net|cdn102.micetop.us)/gi)
+		|| link.match(/(xvideos.com|facebook.com|bilutv.micetop.us)/gi)
+		|| link.match(/(vuighe.net|vung.tv|xphim.vn)/ig)
+		|| link.match(/(oppatv.com|woohay.com|vimeo.com)/gi)
+		|| link.match(/(mfilm.vn|tv.zing.vn|animehay.tv)/gi)
+		|| link.match(/(docs.google.com|content.jwplatform.com)/ig)
+	) {
+		apiplayer = '//sv1.trunguit.net/play?img=https://i.imgur.com/9bHksv8.png&url=';
+	} /*else if (link.match(/(docs.google.com|drive.google.com)/gi)) {
+		link = link.replace(/(\/view)/gi, '/preview');
+	} */else if (link.match(/(youtube.com|youtu.be)/gi)) {
+		link = link.replace(/(\/watch\?v=)/gi, '/embed/').replace(/(.be\/)/gi, 'be.com/embed/');
+		link +="?autoplay=1&showinfo=1";
+	} else if (
+		link.match(/(yadi.sk)/gi)
+	) {
+		apiplayer = 'http://facespam.com/getlink/?url=';
+	} else {
+		apiplayer = '';
+
+	}
+	return apiplayer+link;
+}
+/* Function Load Frame */function tap(l,d){checkScroll();if(d.match(/(VIP)/gi)){jQuery('[name=include]').eq(0).html('<iframe scrolling="no" src="'+apiplayer(l)+'" width="100%" height="100%" allowfullscreen="true" frameborder="0" class="resizevideo"></iframe>')}else if(d.match(/(ALO)/gi)){jQuery('[name=include]').eq(0).html('<iframe scrolling="no" src="'+l+'" width="100%" height="100%" allowfullscreen="true" frameborder="0" class="resizevideo"></iframe>')}else if(d.match(/(BANQUYEN)/gi)){jQuery('.movie-list').remove();jQuery('[name=include]').eq(0).html('<div style="width:100%;height:550px;line-height:550px;background:#464646;font-size:25px;text-align:center;font-weight:bold">Phim đã được gỡ bỏ vì nội dung có BẢN QUYỀN, Chúng tôi xin lỗi bạn vì đã làm phiền.</div>')}}
+/* Button Click */jQuery(document).ready(function(){jQuery('.xemvideo').click(function(){jQuery('.itemtitlte').css('display','block');jQuery('.movie-list').css('display','block').css('text-align','center');jQuery('.on-off').addClass('hidden');jQuery('.infophim').addClass('hidden');jQuery('.add-on').removeClass('hidden');jQuery('.jwplayer').removeClass('hidden');if(jQuery('.movie-list').eq(0).html().match(/(<button)/gi)){jQuery('[name=videos]').eq(0).click()}});jQuery('button').click(function(){jQuery('.episode').removeClass('episode-hover');jQuery(this).addClass('episode-hover');checkScroll()})});
+/* Ligth On - Ligth Off */var cookie_light=!1;function _sangtoi(){checkScroll();cookie_light?(jQuery('div.bat-den').fadeOut(),jQuery('._sangtoi').html('Tắt đèn'),jQuery('#scroller').removeClass('hidden'),jQuery('html,body').css({'overflow':'auto'}),cookie_light=!1):(jQuery('div.bat-den').show(),jQuery('._sangtoi').html('Bật đèn'),jQuery('#scroller').addClass('hidden'),jQuery('html,body').css({'overflow':'hidden'}),cookie_light=!0);return!1}jQuery(document).ready(function(){jQuery('div.bat-den').click(function(){jQuery('.zindex').toggleClass('no-zindex');jQuery('div.bat-den').hide();jQuery('html,body').css({'overflow':'auto'});jQuery('._sangtoi').html('Tắt đèn');jQuery('#scroller').removeClass('hidden');cookie_light=!1});jQuery('.zid').click(function(){jQuery('.zindex').toggleClass('no-zindex')})});
+//]]></script>
+<div style='clear:both'/>
+<!-- Ads-Cmt -->
+
+<!-- Cmt -->
+<script type='text/javascript'>document.write(fbcm);</script>
+<div style='clear:both'/>
+<!-- LQ -->
+<div class='tld-main'>
+<div id='related-posts'>
+<script>//<![CDATA[
+'use strict';var defaultnoimage="//i.imgur.com/BLmL2RV.png";var maxresults=20;var relatedTitles=new Array();var relatedStt=new Array();var relatedTitlesNum=0;var relatedUrls=new Array();var thumburl=new Array();function related_results_labels_thumbs(json){for(var i=0;i<json.feed.entry.length;i++){var entry=json.feed.entry[i];relatedTitles[relatedTitlesNum]=entry.title.$t;relatedStt[relatedTitlesNum]=entry.content.$t;try{thumburl[relatedTitlesNum]=entry.media$thumbnail.url}catch(error){s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){thumburl[relatedTitlesNum]=d}else{if(typeof(defaultnoimage)!=='undefined'){thumburl[relatedTitlesNum]=defaultnoimage}else{thumburl[relatedTitlesNum]="//i.imgur.com/BLmL2RV.png"}}}if(relatedTitles[relatedTitlesNum].length>35){relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0,150)}for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='alternate'){relatedUrls[relatedTitlesNum]=entry.link[k].href;relatedTitlesNum++}}}}function removeRelatedDuplicates_thumbs(){var tmp=new Array(0);var tmp2=new Array(0);var tmp3=new Array(0);var tmp4=new Array(0);for(var i=0;i<relatedUrls.length;i++){if(!contains_thumbs(tmp,relatedUrls[i])){tmp.length+=1;tmp2.length+=1;tmp3.length+=1;tmp4.length+=1;tmp[tmp.length-1]=relatedUrls[i];tmp2[tmp2.length-1]=relatedTitles[i];tmp3[tmp3.length-1]=thumburl[i];tmp4[tmp4.length-1]=relatedStt[i]}}relatedUrls=tmp;relatedTitles=tmp2;thumburl=tmp3;relatedStt=tmp4}function contains_thumbs(a,e){for(var j=0;j<a.length;j++){if(a[j]==e){return!0}}return!1}function printRelatedLabels_thumbs(current){for(var i=0;i<relatedUrls.length;i++){if((relatedUrls[i]==current)||(!relatedTitles[i])){relatedUrls.splice(i,1);relatedTitles.splice(i,1);thumburl.splice(i,1);relatedStt.splice(i,1);i--}}var r=Math.floor((relatedTitles.length-1)*Math.random());var i=0;if(relatedTitles.length>0){document.write('<div class="phimlq">PHIM LIÊN QUAN</div>')}document.write('<div style="clear:both"/>');while(i<relatedTitles.length&&i<20&&i<maxresults){document.write('<div class="popular-row" onclick="window.location.replace(\''+relatedUrls[r]+'\')") title="'+relatedTitles[r]+'"><div class="in-article"><div class="movie-lq" name="movie-lq">'+relatedStt[r]+'</div><div class="wrap-photos"><img onload="lzld(this)" class="ppl-img" data-src="'+thumburl[r].replace("/s72-c/","/s160/")+'" src="//i.imgur.com/YdwUuUq.jpg"/></div><h3 name="title">['+relatedTitles[r]+']</h3><span class="icon-hover"></span><div class="br"></div></div></div>');i++;if(r<relatedTitles.length-1){r++}else{r=0}}document.write('</div>');relatedUrls.splice(0,relatedUrls.length);thumburl.splice(0,thumburl.length);relatedTitles.splice(0,relatedTitles.length);relatedStt.splice(0,relatedStt.length)}
+//]]></script><b:loop values='data:post.labels' var='label'><script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name +  &quot;?max-results=10&amp;orderby=published&amp;alt=json&amp;callback=related_results_labels_thumbs&quot;' type='text/javascript'/></b:loop><script>removeRelatedDuplicates_thumbs();printRelatedLabels_thumbs(&quot;<data:post.url/>&quot;);</script>
+</div>
+<div style='clear:both'/>
+</div>
+<!-- Tag -->
+<div style='clear:both'/>
+<div class='info-content-mv'>
+<div class='tukhoane' style='padding-bottom:15px'><p class='caption-tag'>Từ khóa tìm kiếm</p>
+<div class='tag-mv'>Xem Phim <data:blog.pageName/> VietSub, <data:blog.pageName/> 2017 VietSub, <data:blog.pageName/> thuyết minh, <data:blog.pageName/> 2017 Thuyet Minh, <data:blog.pageName/> Full HD, <data:blog.pageName/> 2017, <data:blog.pageName/> bản đẹp, <data:blog.pageName/> trọn bộ, Phim <data:blog.pageName/>, <data:blog.pageName/> phụ đề, <data:blog.pageName/> BiluTV, <data:blog.pageName/> BanhTV, <data:blog.pageName/> Phim14, <data:blog.pageName/> PhimMoi, <data:blog.pageName/> HDOnline, <data:blog.pageName/> 2017 XemPhimBox, <data:blog.pageName/> PhimNhanh, Xem <data:blog.pageName/> 2017, <data:blog.pageName/> VietSub, <data:blog.pageName/> Thuyết minh, <data:blog.pageName/> 2017 VietSub, <data:blog.pageName/> full HD, <data:blog.pageName/> bản đẹp, <data:blog.pageName/> trọn bộ, <data:blog.pageName/> phụ đề, Xem phim <data:blog.pageName/> tập 1, <data:blog.pageName/> tập 2, <data:blog.pageName/> tập 3, <data:blog.pageName/> tập 4, <data:blog.pageName/> tập 5, <data:blog.pageName/> tập 6, <data:blog.pageName/> tập 7, <data:blog.pageName/> tập 8, <data:blog.pageName/> tập 9, <data:blog.pageName/> tập 10, <data:blog.pageName/> tập 11, <data:blog.pageName/> tập 12, <data:blog.pageName/> tập 13, <data:blog.pageName/> tập 14, <data:blog.pageName/> tập 15, <data:blog.pageName/> tập 16, <data:blog.pageName/> tập 17, <data:blog.pageName/> tập 18/19/20, <data:blog.pageName/> tập cuối, Xem phim <data:blog.pageName/> tập 1, <data:blog.pageName/> tập 2, <data:blog.pageName/> tập 3, <data:blog.pageName/> tập 4, <data:blog.pageName/> tập 5, <data:blog.pageName/> tập 6, <data:blog.pageName/> tập 7, <data:blog.pageName/> tập 8, <data:blog.pageName/> tập 9, <data:blog.pageName/> tập 10, <data:blog.pageName/> tập 11, <data:blog.pageName/> tập 12, <data:blog.pageName/> tập 13, <data:blog.pageName/> tập 14, <data:blog.pageName/> tập 15, <data:blog.pageName/> tập 16, <data:blog.pageName/> tập 17, <data:blog.pageName/> tập 18/19/20, <data:blog.pageName/> tập cuối</div>
+</div></div>
+</div>
+</div> 
+</b:if>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+	<div class='page-content'><h1> [<data:post.title/>] </h1><div class='post-content'><data:post.body/></div></div>
+</b:if>
+  	</b:includable>
+    <b:includable id='postQuickEdit' var='post'/>
+    <b:includable id='shareButtons' var='post'/>
+    <b:includable id='status-message'/>
+    <b:includable id='threaded-comment-form' var='post'/>
+    <b:includable id='threaded_comment_js' var='post'/>
+    <b:includable id='threaded_comments' var='post'/>
+  </b:widget>
+</b:section>	
+</div>
+</div>
+<!-- Phim Right --> 
+<div class='phim-right'>
+<aside id='sidebar-wrapper' itemscope='itemscope' itemtype='//schema.org/WPSideBar'>
+<b:section class='sidebar' id='sidebar' showaddelement='yes'>
+  <b:widget id='HTML1' locked='false' title='Page Phim18T' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fphim18t%2F&tabs&width=314&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=677557259099352" width="314" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+		<b:include name='widget-title'/>
+		<div class='widget-content'><data:content/></div>
+	</b:includable>
+  </b:widget>
+  <b:widget id='PopularPosts1' locked='false' title='Hot Trong Tuần' type='PopularPosts' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+      <b:widget-setting name='showSnippets'>true</b:widget-setting>
+      <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:if cond='data:title != &quot;&quot;'><h3><data:title/></h3></b:if>
+		<div class='widget-content popular-posts'><ul>
+		    <b:loop values='data:posts' var='post'>
+			    <li expr:onclick='&quot;window.location.replace(\&quot;&quot; + data:post.href + &quot;\&quot;)&quot;' expr:title='data:post.title'>
+		            <b:if cond='!data:showThumbnails'>
+		                <b:if cond='!data:showSnippets'><!-- (1) No snippet/thumbnail -->
+		                    <data:post.title/>
+		                <b:else/><!-- (2) Show only snippets -->
+		                    <div class='item-title'><data:post.title/></div><div class='item-snippet'><data:post.snippet/></div>
+		                </b:if>
+		            <b:else/><!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+		                <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+		                    <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+		                        <div class='item-thumbnail'><b:with value='data:post.featuredImage.isResizable ? resizeImage(data:post.featuredImage, 50, &quot;4:5&quot;) : data:post.thumbnail' var='image'><img expr:alt='data:post.title' expr:data-src='data:image' onload='lzld(this)' src='//i.imgur.com/YdwUuUq.jpg'/><div class='top-hover'/></b:with></div>
+		                    </b:if><div class='item-title'><span class='top-xem' name='title-of-ppl'><h4>[<data:post.title/>]</h4></span></div>
+		                    <b:if cond='data:showSnippets'><div class='item-snippet' name='topView'><data:post.snippet/></div></b:if>
+		                </div><div style='clear:both'/>
+		            </b:if>
+		        </li>
+		    </b:loop>
+		</ul></div>
+  	</b:includable>
+  </b:widget>
+</b:section>
+</aside>
+</div>
+</div>
+</b:if>	
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'><div id='error-page'>
+<div id='error-404'><div class='box-404'>404</div><h1>Trang bạn tìm kiếm không tồn tại</h1><p>Có thể URL bị hỏng hoặc đã bị quản trị viên blog xóa bỏ</p><p>Trở về trang chủ <a expr:href='data:blog.homepageUrl'><data:blog.title/></a></p></div></div>
+</b:if>	
+</div>	
+</div>
+<div style='clear:both'/>
+</div>
+</main>
+<div class='clear'/>
+<b:section class='footer' id='footer' preferred='yes'>
+  <b:widget id='HTML4' locked='false' title='Label Tag' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;!-- Tag --&gt;
+&lt;div class=&#39;tn-tagf row&#39;&gt;&lt;div class=&#39;tn-tagfin&#39;&gt;&lt;h5&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=tội+phạm&#39; rel=&#39;tag&#39;&gt;Tội phạm&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=tình+yêu&#39; rel=&#39;tag&#39;&gt;Tình yêu&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=phim+ma&#39; rel=&#39;tag&#39;&gt;Phim ma&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=marvel&#39; rel=&#39;tag&#39;&gt;Marvel&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=cảnh+sát&#39; rel=&#39;tag&#39;&gt;Cảnh sát&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=drama&#39; rel=&#39;tag&#39;&gt;Drama&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=người+ngoài+hành+tinh&#39; rel=&#39;tag&#39;&gt;Người ngoài hành tinh&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=phim+viễn+tưởng&#39; rel=&#39;tag&#39;&gt;Phim viễn tưởng&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=mà+cà+rồng&#39; rel=&#39;tag&#39;&gt;Ma cà rồng&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=quái+vật&#39; rel=&#39;tag&#39;&gt;Quái vật&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=châu+tinh+trì&#39; rel=&#39;tag&#39;&gt;Châu tinh trì&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=người+máy&#39; rel=&#39;tag&#39;&gt;Người máy&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=xác+sống&#39; rel=&#39;tag&#39;&gt;Xác sống&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=robot&#39; rel=&#39;tag&#39;&gt;Robot&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=siêu+nhân&#39; rel=&#39;tag&#39;&gt;Siêu nhân&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=tận+thế&#39; rel=&#39;tag&#39;&gt;Tận thế&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=thảm+hoạ&#39; rel=&#39;tag&#39;&gt;Thảm hoạ&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=siêu+anh+hùng&#39; rel=&#39;tag&#39;&gt;Siêu anh hùng&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=phù+thuỷ&#39; rel=&#39;tag&#39;&gt;Phù thuỷ&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=khủng+bố&#39; rel=&#39;tag&#39;&gt;Khủng bố&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=thây+ma&#39; rel=&#39;tag&#39;&gt;Thây ma&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=giết+người&#39; rel=&#39;tag&#39;&gt;Giết người&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=điệp+viên&#39; rel=&#39;tag&#39;&gt;Điệp viên&lt;/a&gt;
+    &lt;a class=&#39;tn-atag&#39; href=&#39;/search?q=bắn+súng&#39; rel=&#39;tag&#39;&gt;Bắn súng&lt;/a&gt;
+&lt;/h5&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#39;clear&#39;/&gt;&lt;/div&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'><div class='widget-content'><data:content/></div></b:includable>
+  </b:widget>
+  <b:widget id='HTML5' locked='false' title='HTML Footer' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;!-- Footer Wrapper --&gt;
+&lt;footer id=&#39;footer-wrapper&#39; itemscope=&#39;itemscope&#39; itemtype=&#39;//schema.org/WPFooter&#39;&gt;
+	&lt;div class=&#39;row&#39;&gt;&lt;div class=&#39;admin-web&#39;&gt;
+		&lt;div class=&#39;logo-day&#39; style=&#39;text-align: center;float: left;padding: 3px 15px 0px 0;&#39;&gt;&lt;a class=&#39;logo&#39; expr:href=&#39;data:blog.homepageUrl&#39; title=&#39;Trang chủ&#39;&gt;&lt;img alt=&quot;Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD Vietsub - Thuyết Minh&quot; src=&quot;//i.imgur.com/sQ1hx79.png&quot; title=&quot;Phim 18t | Phim Mới | Xem Phim Nhanh | Phim Chiếu Rạp | Phim HD Vietsub - Thuyết Minh&quot; style=&#39;max-width:220px&#39;/&gt;&lt;/a&gt;&lt;/div&gt;
+		&lt;p&gt;Copyright &amp;#169; 2018 &lt;data:blog.title/&gt; All Rights Reserved.&lt;/data:blog.title&gt;&lt;/p&gt;&lt;p&gt;Nội dung được sưu tầm trên internet.&lt;/p&gt;
+&lt;p&gt;Mọi góp ý cũng như về bản quyền vui lòng liên hệ tới email: phim18t.hotro@gmail.com&lt;/p&gt;
+	
+&lt;!--thong ke luot online--&gt;
+&lt;script id=&quot;_waub65&quot;&gt;var _wau = _wau || []; _wau.push([&quot;dynamic&quot;, &quot;yypzj0kw63&quot;, &quot;b65&quot;, &quot;025cfbffc20e&quot;, &quot;small&quot;]);&lt;/script&gt;&lt;script async src=&quot;//waust.at/d.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;/footer&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'><div class='widget-content'><data:content/></div></b:includable>
+  </b:widget>
+</b:section>
+
+<script>//<![CDATA[
+/* Get Info */getInfo();function getInfo(){for(var i=0,msg=jQuery("[name=main-movie-content]").length;i<msg;i++){var oldtext=jQuery("[name=main-movie-content]").eq(i);var newtext=oldtext.html().replace(/(^|[\n ])([\w]+?:\/\/[^ ,\"\n\r\t<]*)/ig,"$2");newtext=newtext.replace(/\[stt\/(.+?)]/ig,'<span class="status" name="status">$1</span>');newtext=newtext.replace(/\[ok\/(.*?)\]/gi,'');oldtext.html(newtext)}for(var i=0,msg=jQuery("[name=title]").length;i<msg;i++){var oldtext=jQuery("[name=title]").eq(i);var newtext=oldtext.html().replace(/(^|[\n ])([\w]+?:\/\/[^ ,\"\n\r\t<]*)/ig,"$2");newtext=newtext.replace(/\[(.+?) - (.+?)\]/ig,'<div class="title-vi">$1</div><div class="title-en">$2</div>');oldtext.html(newtext)}}
+/* Regex Title */for(var i=0,msg=jQuery("[name=topView]").length;i<msg;i++){var oldtext=jQuery("[name=topView]").eq(i);var newtext=oldtext.html().replace(/(^|[\n ])([\w]+?:\/\/[^ ,\"\n\r\t<]*)/ig,"$2");newtext=newtext.replace(/\[stt\/(.+?)]/ig,'<div><i class="hehehe">$1</i></div>');newtext=newtext.replace(/\[ok\/(.*?)\]/gi,'');oldtext.html(newtext)}for(var i=0,msg=jQuery("[name=title-of-ppl]").length;i<msg;i++){var oldtext=jQuery("[name=title-of-ppl]").eq(i);var newtext=oldtext.html().replace(/(^|[\n ])([\w]+?:\/\/[^ ,\"\n\r\t<]*)/ig,"$2");newtext=newtext.replace(/\[(.+?) - (.+?)\]/ig,'<div class="ppl-vi">$1</div><div class="ppl-en">$2</div>');oldtext.html(newtext)}for(var i=0,msg=jQuery("[name=movie-lq]").length;i<msg;i++){var oldtext=jQuery("[name=movie-lq]").eq(i);var newtext=oldtext.html().replace(/(^|[\n ])([\w]+?:\/\/[^ ,\"\n\r\t<]*)/ig,"$2");newtext=newtext.replace(/<a(.*?)>(.*?)<\/a>/gi,'$2').replace(' Đọc thêm »','');newtext=newtext.replace(/\[stt\/(.+?)]/ig,'<span class="status" name="status">$1</span>');newtext=newtext.replace(/\[ok\/(.*?)\]/gi,'');oldtext.html(newtext)}
+/* Check Scroll Top */function checkScroll(){return jQuery('html,body').animate({scrollTop:jQuery('#include').offset().top},'slow')}
+/* Bao Loi Phim */jQuery(".baoloi").click(function(){if (confirm("Bạn vui lòng chọn lại tập để xem trước khi nhấn báo lỗi. Nhấn OK để báo lỗi! Chúng tôi sẽ cập nhật sớm nhất.")==true){window.open('//fb.com/messages/t/DaoSanPhim','_blank')}});
+/* Fix broken images */for(var images=jQuery('img[src*=".bp.blogspot.com"]'),total=images.length,i=0;total>i;i++){var img=images.eq(i);img.complete&&0!==img.naturalWidth||(img.attr("src",img.attr("src").replace(/[0-9]+.bp.blogspot.com/,'lh3.googleusercontent.com').replace('http:',document.location.protocol)))}for(var images=jQuery('img[data-src*=".bp.blogspot.com"]'),total=images.length,i=0;total>i;i++){var img=images.eq(i);img.complete&&0!==img.naturalWidth||(img.attr("data-src",img.attr("data-src").replace(/[0-9]+.bp.blogspot.com/,'lh3.googleusercontent.com').replace('http:',document.location.protocol)))}
+//]]></script>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<script>//<![CDATA[
+var slider_entry = [
+["/2018/04/captain-tsubasa-2018.html","//i.imgur.com/5R466ON.jpg"],
+["/2018/04/rampage-2018.html", "//i.imgur.com/O12fodz.jpg"],
+["/2018/04/Fifty-Shades-Freed-2018.html", "//i.imgur.com/ugiFpOU.jpg"],
+["/2018/05/ngoi-lang-tien-su.html", "//i.imgur.com/IlSPvvD.jpg"],
+["/2018/05/rong-dat-ngay-lanh-gia-o-dia-nguc.html", "//i.imgur.com/g5Up4vS.jpg"]
+//["000000", "00000000"]
+];
+'use strict';var slider_width=100;var sliderz_time=6000;var entry="",pick="",slider_entry_len=slider_entry.length;for(var i=0;i<slider_entry_len;i++){entry+='<div class="sliderz-entry" style="width:'+100/slider_entry_len+'%"><a class="sliderz-preview" href="'+slider_entry[i][0]+'"><img onload="lzld(this)" class="sliderz-preview-img" data-src="'+slider_entry[i][1].replace(slider_entry[i][1].split("/")[7], "s300")+'" src="//i.imgur.com/YdwUuUq.jpg"/></a></div>';pick='<span class="sliderz-number" data-slide-number='+i+' onclick="sliderz_goto(event)"></span>'+pick}var slider_entry_wrapper=jQuery('.sliderz-entry-list-wrapper')[0];slider_entry_wrapper.style.width=slider_entry_len*slider_width+'%';jQuery('.sliderz-entry-list').eq(0).html(entry);jQuery('.sliderz-pick').eq(0).html(pick);var slider_wrapper=jQuery('.sliderz-wrapper')[0];var sliderz_timer=setInterval(function(){sliderz_goto(-2)},sliderz_time);slider_wrapper.addEventListener("mouseenter",function(){clearInterval(sliderz_timer)});slider_wrapper.addEventListener("mouseleave",function(){sliderz_timer=setInterval(function(){sliderz_goto(-2)},sliderz_time)});var sliderz_goto=(function(){var slider_ctrl=jQuery('.sliderz-entry-list-wrapper')[0];var curpos=0,range=slider_entry_len,slider_wid=slider_width;var pickls=jQuery('.sliderz-number');return function(pos){if(pos==event)curpos=pos.target.dataset.slideNumber;else if(pos==-1){curpos=--curpos%range;curpos=curpos<0?range-1:curpos}else if(pos==-2)curpos=++curpos%range;slider_ctrl.style.left=-curpos*slider_wid+"%";for(var i=pickls.length-1;i>=0;i--)pickls[i].classList.remove("open");pickls[curpos].classList.add("open")}})();slider_entry="";entry="";slider_entry_wrapper="";slider_wrapper="";pick="";slider_width=0;slider_entry_len=0;
+//]]></script>
+</b:if>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<b:if cond='data:blog.url != data:blog.homepageUrl'>
+<script>//<![CDATA[
+var perPage=30;var numPages=3;var firstText='First';var lastText='Last';var prevText='« Previous';var nextText='Next »';var urlactivepage=location.href;var home_page="/";if(typeof firstText=="undefined")firstText="First";if(typeof lastText=="undefined")lastText="Last";var noPage;var currentPage;var currentPageNo;var postLabel;pagecurrentg();function looppagecurrentg(pageInfo){var html='';pageNumber=parseInt(numPages/2);if(pageNumber==numPages-pageNumber){numPages=pageNumber*2+1}pageStart=currentPageNo-pageNumber;if(pageStart<1)pageStart=1;lastPageNo=parseInt(pageInfo/perPage)+1;if(lastPageNo-1==pageInfo/perPage)lastPageNo=lastPageNo-1;pageEnd=pageStart+numPages-1;if(pageEnd>lastPageNo)pageEnd=lastPageNo;html+="<span class='showpageOf'>Page "+currentPageNo+' of '+lastPageNo+"</span>";var prevNumber=parseInt(currentPageNo)-1;if(currentPageNo>1){if(currentPage=="page"){html+='<span class="showpage firstpage"><a href="'+home_page+'">'+firstText+'</a></span>'}else{html+='<span class="displaypageNum firstpage"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">'+firstText+'</a></span>'}}if(currentPageNo>2){if(currentPageNo==3){if(currentPage=="page"){html+='<span class="showpage"><a href="'+home_page+'">'+prevText+'</a></span>'}else{html+='<span class="displaypageNum"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">'+prevText+'</a></span>'}}else{if(currentPage=="page"){html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectpage('+prevNumber+');return false">'+prevText+'</a></span>'}else{html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectlabel('+prevNumber+');return false">'+prevText+'</a></span>'}}}if(pageStart>1){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="'+home_page+'">1</a></span>'}else{html+='<span class="displaypageNum"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">1</a></span>'}}if(pageStart>2){html+='<span class="displaypageNum"><a href="javascript:void(0);"> ... </a></span>'}for(var jj=pageStart;jj<=pageEnd;jj++){if(currentPageNo==jj){html+='<span class="pagecurrent">'+jj+'</span>'}else if(jj==1){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="'+home_page+'">1</a></span>'}else{html+='<span class="displaypageNum"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">1</a></span>'}}else{if(currentPage=="page"){html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectpage('+jj+');return false">'+jj+'</a></span>'}else{html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectlabel('+jj+');return false">'+jj+'</a></span>'}}}if(pageEnd<lastPageNo-1){html+='<span class="displaypageNum"><a href="javascript:void(0);"> ... </a></span>'}if(pageEnd<lastPageNo){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectpage('+lastPageNo+');return false">'+lastPageNo+'</a></span>'}else{html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectlabel('+lastPageNo+');return false">'+lastPageNo+'</a></span>'}}var nextnumber=parseInt(currentPageNo)+1;if(currentPageNo<(lastPageNo-1)){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectpage('+nextnumber+');return false">'+nextText+'</a></span>'}else{html+='<span class="displaypageNum"><a href="javascript:void(0);" onclick="redirectlabel('+nextnumber+');return false">'+nextText+'</a></span>'}}if(currentPageNo<lastPageNo){if(currentPage=="page"){html+='<span class="displaypageNum lastpage"><a href="javascript:void(0);" onclick="redirectpage('+lastPageNo+');return false">'+lastText+'</a></span>'}else{html+='<span class="displaypageNum lastpage"><a href="javascript:void(0);" onclick="redirectlabel('+lastPageNo+');return false">'+lastText+'</a></span>'}}var pageArea=jQuery("[name=pageArea]");var blogPager=jQuery('#blog-pager');for(var p=0;p<pageArea.length;p++){pageArea.eq(p).html(html)}if(pageArea&&pageArea.length>0){html=''}if(blogPager){blogPager.html(html)}}function totalcountdata(root){var feed=root.feed;var totaldata=parseInt(feed.openSearch$totalResults.$t,10);looppagecurrentg(totaldata)}function pagecurrentg(){var thisUrl=urlactivepage;if(thisUrl.indexOf("/search/label/")!=-1){if(thisUrl.indexOf("?updated-max")!=-1){postLabel=thisUrl.substring(thisUrl.indexOf("/search/label/")+14,thisUrl.indexOf("?updated-max"))}else{postLabel=thisUrl.substring(thisUrl.indexOf("/search/label/")+14,thisUrl.indexOf("?&max"))}}if(thisUrl.indexOf("?q=")==-1&&thisUrl.indexOf(".html")==-1){if(thisUrl.indexOf("/search/label/")==-1){currentPage="page";if(urlactivepage.indexOf("#PageNo=")!=-1){currentPageNo=urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length)}else{currentPageNo=1}document.write("<script src=\""+home_page+"feeds/posts/summary?max-results=1&alt=json&callback=totalcountdata\"><\/script>")}else{currentPage="label";if(thisUrl.indexOf("&max-results=")==-1){perPage=20}if(urlactivepage.indexOf("#PageNo=")!=-1){currentPageNo=urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length)}else{currentPageNo=1}document.write('<script src="'+home_page+'feeds/posts/summary/-/'+postLabel+'?alt=json&callback=totalcountdata&max-results=1" ><\/script>')}}}function redirectpage(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numberpage;var nameBody=jQuery("head")[0];var newInclude=document.createElement('script');newInclude.type='text/javascript';newInclude.setAttribute("src",home_page+"feeds/posts/summary?start-index="+jsonstart+"&max-results=1&alt=json&callback=finddatepost");nameBody.appendChild(newInclude)}function redirectlabel(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numberpage;var nameBody=jQuery("head")[0];var newInclude=document.createElement('script');newInclude.type='text/javascript';newInclude.setAttribute("src",home_page+"feeds/posts/summary/-/"+postLabel+"?start-index="+jsonstart+"&max-results=1&alt=json&callback=finddatepost");nameBody.appendChild(newInclude)}function finddatepost(root){post=root.feed.entry[0];var timestamp1=post.published.$t.substring(0,19)+post.published.$t.substring(23,29);var timestamp=encodeURIComponent(timestamp1);if(currentPage=="page"){var pAddress="/search?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}else{var pAddress="/search/label/"+postLabel+"?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}location.href=pAddress}
+//]]></script>
+</b:if>
+</b:if>
+</b:if>
+
+
+
+<b:section class='adsfooter' id='adsfooter' preferred='yes'>
+  <b:widget id='HTML6' locked='false' title='JS Popads' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'><div class='widget-content'><data:content/></div></b:includable>
+  </b:widget>
+</b:section>
+<!--G+-->
+<script async='async' defer='defer' src='https://apis.google.com/js/platform.js'/>
+
+&lt;!--<head/><body/>--&gt;
+<div class='top-scroll' id='scroller' style='display:none'><i class='fa fa-angle-up'/></div>
+<div class='bat-den'/>
+&lt;/body&gt;
+</html>
